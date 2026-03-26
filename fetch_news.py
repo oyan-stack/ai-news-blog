@@ -5,7 +5,7 @@ import html
 FEEDS = [
     {
         "name": "VentureBeat AI",
-        "url": "https://venturebeat.com/ai/feed/",
+        "url": "https://venturebeat.com/category/ai/feed/",
         "lang": "en",
     },
     {
