@@ -12,9 +12,19 @@ FEEDS = [
         "lang": "en",
     },
     {
-        "name": "Gigazine",
-        "url": "https://gigazine.net/news/rss_2.0/",
-        "lang": "ja",
+        "name": "Hacker News (AI)",
+        "url": "https://hnrss.org/newest?q=AI&points=50",
+        "lang": "en",
+    },
+    {
+        "name": "GitHub Blog",
+        "url": "https://github.blog/feed/",
+        "lang": "en",
+    },
+    {
+        "name": "OpenAI News",
+        "url": "https://openai.com/news/rss.xml",
+        "lang": "en",
     },
 ]
 
@@ -34,11 +44,12 @@ def save_cache(cache):
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
-def summarize(client, title, summary, lang):
+def summarize(client, title, summary):
     text = f"タイトル: {title}\n本文抜粋: {summary}"
     prompt = (
-        "以下のニュース記事を日本語で2〜3文に要約してください。"
-        "簡潔に、重要なポイントだけを伝えてください。\n\n" + text
+        "以下のニュース記事をWebエンジニア視点で日本語2〜3文に要約してください。"
+        "実務への影響・使えるツール・APIの変化があれば優先して触れてください。\n\n"
+        + text
     )
     message = client.messages.create(
         model="claude-haiku-4-5-20251001",
@@ -57,14 +68,13 @@ def fetch_feed(feed_info, client, cache):
         raw_summary = entry.get("summary", "")[:500]
         published = entry.get("published", "")
 
-        # キャッシュ済みならスキップ
         if link in cache:
             ai_summary = cache[link]
             print(f"  [cache] {title[:40]}")
         else:
             print(f"  [summarize] {title[:40]}")
             try:
-                ai_summary = summarize(client, title, raw_summary, feed_info["lang"])
+                ai_summary = summarize(client, title, raw_summary)
                 cache[link] = ai_summary
             except Exception as e:
                 print(f"    Error: {e}")
@@ -103,7 +113,7 @@ def build_html(sections):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI News</title>
+  <title>AI News for Web Engineers</title>
   <style>
     body {{
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -165,7 +175,7 @@ def build_html(sections):
   </style>
 </head>
 <body>
-  <h1>AI News</h1>
+  <h1>AI News for Web Engineers</h1>
   <p class="updated">最終更新: {now}</p>
   {section_html}
 </body>
