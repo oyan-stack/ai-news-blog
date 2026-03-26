@@ -1,6 +1,9 @@
 import feedparser
-from datetime import datetime, timezone
+import anthropic
+import json
+import os
 import html
+from datetime import datetime, timezone
 
 FEEDS = [
     {
@@ -16,20 +19,61 @@ FEEDS = [
 ]
 
 MAX_ITEMS = 10
+CACHE_FILE = "summary_cache.json"
 
 
-def fetch_feed(feed_info):
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_cache(cache):
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+def summarize(client, title, summary, lang):
+    text = f"タイトル: {title}\n本文抜粋: {summary}"
+    prompt = (
+        "以下のニュース記事を日本語で2〜3文に要約してください。"
+        "簡潔に、重要なポイントだけを伝えてください。\n\n" + text
+    )
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=300,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return message.content[0].text.strip()
+
+
+def fetch_feed(feed_info, client, cache):
     parsed = feedparser.parse(feed_info["url"])
     items = []
     for entry in parsed.entries[:MAX_ITEMS]:
-        title = html.escape(entry.get("title", "(no title)"))
+        title = entry.get("title", "(no title)")
         link = entry.get("link", "#")
-        summary = html.escape(entry.get("summary", "")[:200]).strip()
+        raw_summary = entry.get("summary", "")[:500]
         published = entry.get("published", "")
+
+        # キャッシュ済みならスキップ
+        if link in cache:
+            ai_summary = cache[link]
+            print(f"  [cache] {title[:40]}")
+        else:
+            print(f"  [summarize] {title[:40]}")
+            try:
+                ai_summary = summarize(client, title, raw_summary, feed_info["lang"])
+                cache[link] = ai_summary
+            except Exception as e:
+                print(f"    Error: {e}")
+                ai_summary = ""
+
         items.append({
-            "title": title,
+            "title": html.escape(title),
             "link": link,
-            "summary": summary,
+            "summary": html.escape(ai_summary),
             "published": published,
         })
     return items
@@ -129,12 +173,20 @@ def build_html(sections):
 
 
 def main():
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise ValueError("ANTHROPIC_API_KEY が設定されていません")
+
+    client = anthropic.Anthropic(api_key=api_key)
+    cache = load_cache()
+
     sections = []
     for feed_info in FEEDS:
         print(f"Fetching {feed_info['name']}...")
-        items = fetch_feed(feed_info)
+        items = fetch_feed(feed_info, client, cache)
         sections.append({"name": feed_info["name"], "items": items})
-        print(f"  -> {len(items)} items")
+
+    save_cache(cache)
 
     output = build_html(sections)
     with open("index.html", "w", encoding="utf-8") as f:
