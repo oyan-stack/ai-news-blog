@@ -146,5 +146,45 @@
   "https://openai.com/index/introducing-gpt-5-4-mini-and-nano": {
     "category": 2,
     "summary": "GPT-5.4のminiとnanoという小型モデルが新たにリリースされました。これらはコーディング、ツール利用、マルチモーダル推論に最適化されており、高頻度のAPI呼び出しやサブエージェント用途で低遅延・低コストの実行が可能になります。"
+  },
+  "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/": {
+    "category": 4,
+    "summary": "Anthropic（AI企業）がトランプ政権の規制措置に対して差し止め命令を勝ち取り、国防総省関連の制限が撤回されることになった。AI業界全体の規制環境に影響を与える重要な法的判断である。"
+  },
+  "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/": {
+    "category": 3,
+    "summary": "Googleが他のチャットボットからGeminiへの乗り換えを容易にする「switching tools」を発表しました。ユーザーは既存のチャット履歴と個人情報を直接Geminiに転送でき、他のAIツールからの移行がシームレスになります。"
+  },
+  "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/": {
+    "category": 3,
+    "summary": "ByteDanceがCapCutに新AI動画生成モデル「Dreamina Seedance 2.0」を統合し、実顔や無許可の知的財産からの動画生成を防ぐ保護機能を搭載。動画編集ツールにAI生成機能が拡張され、実務での利用可能性が向上した。"
+  },
+  "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/": {
+    "category": 1,
+    "summary": "ConntourがGeneral CatalystとYCから7M$を調達し、セキュリティカメラ映像をAIで自然言語検索できるAI検索エンジンを開発しています。Webエンジニアは、カメラフィードのクエリAPI統合により、セキュリティシステムへのAI組み込みが容易になる可能性があります。"
+  },
+  "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/": {
+    "category": 1,
+    "summary": "Cohereが20億パラメータの軽量な音声文字起こしモデルをオープンソースで公開しました。消費者向けGPUでのセルフホスト対応により、APIに依存せず自環境での音声文字起こし実装が可能になります。"
+  },
+  "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/": {
+    "category": 4,
+    "summary": "AI関連の雇用喪失への対策として、米上院議員がデータセンターへの課税を提案しており、AI業界に対する規制動向が加速している。企業はコスト構造の変化やコンプライアンス対応の必要性を検討する必要がある。"
+  },
+  "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/": {
+    "category": 1,
+    "summary": "Mistralが音声生成の新しいオープンソースモデルをリリースし、エンタープライズ向けの音声エージェント構築が可能になりました。ElevenLabsやOpenAIなどと競合する音声AI市場において、開発者が自由に利用・カスタマイズできるオープンソース選択肢が増えました。"
   }
 }
