@@ -128,6 +128,19 @@ def parse_published(published_str):
         return 0
 
 
+def format_published_ja(published_str):
+    JST = timezone(timedelta(hours=9))
+    try:
+        dt = parsedate_to_datetime(published_str).astimezone(JST)
+        return f"{dt.year}年{dt.month}月{dt.day}日"
+    except Exception:
+        try:
+            dt = datetime.fromisoformat(published_str).astimezone(JST)
+            return f"{dt.year}年{dt.month}月{dt.day}日"
+        except Exception:
+            return published_str
+
+
 # ---- 重複統合 ----
 
 def normalize_title(title):
@@ -339,6 +352,7 @@ def fetch_feed(feed_info, client, cache):
             "link": link,
             "summary": html.escape(ai_summary),
             "published": published,
+            "published_ja": format_published_ja(published),
             "published_ts": parse_published(published),
             "source": feed_info["name"],
             "category": category,
@@ -391,7 +405,7 @@ def build_html(all_items, weekly_points=None):
           <a href="{item['link']}" target="_blank" rel="noopener">{item['title']}</a>
           <span class="badge" style="background:{bg};{fg}">{CATEGORY_LABELS.get(cat,'')}</span>
         </div>
-        <span class="meta">{item['source']} &nbsp;·&nbsp; {item['published']}</span>
+        <span class="meta">{item['source']} &nbsp;·&nbsp; {item['published_ja']}</span>
         <p class="summary">{item['summary']}</p>
       </li>"""
 
