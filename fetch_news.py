@@ -22,6 +22,14 @@ FEEDS = [
         "name": "OpenAI News",
         "url": "https://openai.com/news/rss.xml",
     },
+    {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    },
+    {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+    },
 ]
 
 MAX_ITEMS = 10
