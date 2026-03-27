@@ -47,15 +47,7 @@ CATEGORY_COLORS = {
 def load_cache():
     if os.path.exists(CACHE_FILE):
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            raw = json.load(f)
-        # 古い形式（文字列）のキャッシュを新形式に変換
-        converted = {}
-        for k, v in raw.items():
-            if isinstance(v, str):
-                converted[k] = {"category": 0, "summary": v}
-            else:
-                converted[k] = v
-        return converted
+            return json.load(f)
     return {}
 
 
@@ -92,6 +84,7 @@ def classify_and_summarize(client, title, raw_summary):
         messages=[{"role": "user", "content": prompt}],
     )
     text = message.content[0].text.strip()
+    text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
     try:
         result = json.loads(text)
         category = int(result.get("category", 0))
