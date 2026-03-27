@@ -28,7 +28,7 @@ FEEDS = [
     },
     {
         "name": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
     },
 ]
 
