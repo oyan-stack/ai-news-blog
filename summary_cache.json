@@ -186,5 +186,45 @@
   "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/": {
     "category": 1,
     "summary": "Mistralが音声生成の新しいオープンソースモデルをリリースし、エンタープライズ向けの音声エージェント構築が可能になりました。ElevenLabsやOpenAIなどと競合する音声AI市場において、開発者が自由に利用・カスタマイズできるオープンソース選択肢が増えました。"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction": {
+    "category": 4,
+    "summary": "Anthropicがペンタゴンによる取引禁止措置に対する訴訟で仮差し止め命令を勝ち取り、政府とのAI企業間の規制問題が司法の場で争われている。AI企業と防衛関連部門の関係性が法的に問われる重要な判例として、今後のAI企業の政府契約機会に影響を与える可能性がある。"
+  },
+  "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar": {
+    "category": 4,
+    "summary": "シリコンバレーの有力ベンチャーキャピタリストであったDavid Sacksがトランプ大統領のAI・暗号資産特別顧問を辞任しました。AI政策の策定に影響力を持つ人物の交代は、今後の米国のAI規制・政策方向に影響を与える可能性があります。"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history": {
+    "category": 2,
+    "summary": "GeminiがClaudeに続いて「Import Memory」および「Import Chat History」機能をデスクトップで提供開始。ユーザーは他のAIとの会話履歴やメモリを簡単にGeminiにインポート可能になり、AI間でのコンテキスト移行がより効率的になる。"
+  },
+  "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27": {
+    "category": 3,
+    "summary": "Apple iOS 27はSiriに第三者製AIチャットボット（GeminiやClaudeなど）を統合できるようになります。App StoreからダウンロードしたAIツールをSiriと連携させることで、ユーザーの選択肢が拡がり、Siri統合が必要なアプリ開発の実装方法に変化が生じる可能性があります。"
+  },
+  "https://www.theverge.com/report/902005/apple-ai-playlist-playground-bad-at-music": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://www.theverge.com/tech/901816/google-search-live-ai-assistant-expansion": {
+    "category": 2,
+    "summary": "GoogleがSearch Liveの言語対応を拡大し、200以上の国・地域で数十言語での利用が可能になりました。音声とカメラを使用したAI検索アシスタント機能がより多くのユーザーにアクセス可能になったことで、多言語対応の検索体験が実装されています。"
+  },
+  "https://www.theverge.com/column/901314/meta-new-ray-ban-ai-glasses": {
+    "category": 1,
+    "summary": "MetaとEssilorLuxotticaが次世代Ray-Ban AIグラスの発表を準備中で、FCC申請が進行中です。AIグラスのハードウェア進化により、Webサービスとのインテグレーション機会が増加する可能性があります。"
+  },
+  "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim": {
+    "category": 1,
+    "summary": "Webtoon傘下のCanvasプラットフォームに、クリエイターの収益化と国際展開を支援するAI локalization機能が追加される。複数言語への自動翻訳やローカライズ機能により、ユーザーコンテンツのグローバルリーチが拡大することが期待される。"
   }
 }
