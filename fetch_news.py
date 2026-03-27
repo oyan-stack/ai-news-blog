@@ -9,27 +9,39 @@ FEEDS = [
     {
         "name": "VentureBeat AI",
         "url": "https://venturebeat.com/category/ai/feed/",
-        "lang": "en",
     },
     {
         "name": "Hacker News (AI)",
         "url": "https://hnrss.org/newest?q=AI&points=50",
-        "lang": "en",
     },
     {
         "name": "GitHub Blog",
         "url": "https://github.blog/feed/",
-        "lang": "en",
     },
     {
         "name": "OpenAI News",
         "url": "https://openai.com/news/rss.xml",
-        "lang": "en",
     },
 ]
 
 MAX_ITEMS = 10
 CACHE_FILE = "summary_cache.json"
+
+CATEGORY_LABELS = {
+    1: "新ツール・サービス発表",
+    2: "アップデート・新モデル",
+    3: "既存ツールへのAI機能追加",
+    4: "業界・規制ニュース",
+    0: "その他",
+}
+
+CATEGORY_COLORS = {
+    1: "#e8f4fd;color:#1a6bbf",
+    2: "#edf7ed;color:#2e7d32",
+    3: "#fdf3e8;color:#b45309",
+    4: "#f3eeff;color:#6d28d9",
+    0: "#f1f0ee;color:#888",
+}
 
 
 def load_cache():
@@ -44,19 +56,41 @@ def save_cache(cache):
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
-def summarize(client, title, summary):
-    text = f"タイトル: {title}\n本文抜粋: {summary}"
-    prompt = (
-        "以下のニュース記事をWebエンジニア視点で日本語2〜3文に要約してください。"
-        "実務への影響・使えるツール・APIの変化があれば優先して触れてください。\n\n"
-        + text
-    )
+def classify_and_summarize(client, title, raw_summary):
+    prompt = f"""以下のニュース記事について、下記の2点をJSONで返してください。
+
+## 分類ルール（categoryに数字を入れる）
+1: 新しいAIツール・サービスの発表（新製品・新サービスのローンチ）
+2: 既存AIツールのアップデート・新モデル発表（機能追加、新バージョン、新モデルリリース）
+3: 既存の非AIツールへのAI機能追加（FigmaにAI追加、AdobeにAI追加など）
+4: AI業界全体への影響（企業買収、法律・規制、大型資金調達など）
+0: 上記に該当しない（無関係な記事）
+
+## 要約ルール（summaryに文字列を入れる）
+- categoryが0の場合は空文字列
+- それ以外はWebエンジニア視点で日本語2〜3文で要約
+- 実務への影響・使えるツール・APIの変化があれば優先して触れる
+
+## 記事
+タイトル: {title}
+本文抜粋: {raw_summary}
+
+## 出力形式（JSONのみ、説明文不要）
+{{"category": <数字>, "summary": "<要約文>"}}"""
+
     message = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=300,
+        max_tokens=400,
         messages=[{"role": "user", "content": prompt}],
     )
-    return message.content[0].text.strip()
+    text = message.content[0].text.strip()
+    try:
+        result = json.loads(text)
+        category = int(result.get("category", 0))
+        summary = result.get("summary", "")
+        return category, summary
+    except Exception:
+        return 0, ""
 
 
 def fetch_feed(feed_info, client, cache):
@@ -69,44 +103,63 @@ def fetch_feed(feed_info, client, cache):
         published = entry.get("published", "")
 
         if link in cache:
-            ai_summary = cache[link]
-            print(f"  [cache] {title[:40]}")
+            category = cache[link]["category"]
+            ai_summary = cache[link]["summary"]
+            print(f"  [cache] (cat={category}) {title[:40]}")
         else:
-            print(f"  [summarize] {title[:40]}")
+            print(f"  [classify] {title[:40]}")
             try:
-                ai_summary = summarize(client, title, raw_summary)
-                cache[link] = ai_summary
+                category, ai_summary = classify_and_summarize(client, title, raw_summary)
+                cache[link] = {"category": category, "summary": ai_summary}
             except Exception as e:
                 print(f"    Error: {e}")
-                ai_summary = ""
+                category, ai_summary = 0, ""
+
+        if category == 0:
+            continue
 
         items.append({
             "title": html.escape(title),
             "link": link,
             "summary": html.escape(ai_summary),
             "published": published,
+            "source": feed_info["name"],
+            "category": category,
         })
     return items
 
 
-def build_html(sections):
+def build_html(all_items):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    section_html = ""
-    for section in sections:
-        items_html = ""
-        for item in section["items"]:
-            items_html += f"""
-        <li class="news-item">
+
+    sorted_items = sorted(all_items, key=lambda x: x["category"])
+
+    current_cat = None
+    items_html = ""
+    for item in sorted_items:
+        cat = item["category"]
+        if cat != current_cat:
+            if current_cat is not None:
+                items_html += "</ul>"
+            label = CATEGORY_LABELS.get(cat, "その他")
+            items_html += f'<h2>{label}</h2><ul class="news-list">'
+            current_cat = cat
+
+        color_style = CATEGORY_COLORS.get(cat, CATEGORY_COLORS[0])
+        items_html += f"""
+      <li class="news-item">
+        <div class="item-header">
           <a href="{item['link']}" target="_blank" rel="noopener">{item['title']}</a>
-          <span class="meta">{item['published']}</span>
-          <p class="summary">{item['summary']}</p>
-        </li>"""
-        section_html += f"""
-    <section>
-      <h2>{html.escape(section['name'])}</h2>
-      <ul class="news-list">{items_html}
-      </ul>
-    </section>"""
+          <span class="badge" style="background:{color_style.split(';')[0].replace('background:','')};{color_style.split(';')[1] if ';' in color_style else ''}">{CATEGORY_LABELS.get(cat,'')}</span>
+        </div>
+        <span class="meta">{item['source']} &nbsp;·&nbsp; {item['published']}</span>
+        <p class="summary">{item['summary']}</p>
+      </li>"""
+
+    if current_cat is not None:
+        items_html += "</ul>"
+
+    total = len(sorted_items)
 
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -123,18 +176,10 @@ def build_html(sections):
       background: #f9f9f7;
       color: #1a1a18;
     }}
-    h1 {{
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 4px;
-    }}
-    .updated {{
-      font-size: 12px;
-      color: #888;
-      margin-bottom: 32px;
-    }}
+    h1 {{ font-size: 20px; font-weight: 600; margin-bottom: 4px; }}
+    .meta-bar {{ font-size: 12px; color: #888; margin-bottom: 32px; }}
     h2 {{
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
       color: #444;
       border-left: 3px solid #4a90d9;
@@ -142,42 +187,34 @@ def build_html(sections):
       margin-top: 36px;
       margin-bottom: 12px;
     }}
-    .news-list {{
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }}
-    .news-item {{
-      padding: 12px 0;
-      border-bottom: 1px solid #e8e8e4;
-    }}
-    .news-item a {{
+    .news-list {{ list-style: none; padding: 0; margin: 0; }}
+    .news-item {{ padding: 12px 0; border-bottom: 1px solid #e8e8e4; }}
+    .item-header {{ display: flex; align-items: flex-start; gap: 8px; margin-bottom: 2px; }}
+    .item-header a {{
       font-size: 14px;
       font-weight: 500;
       color: #1a6bbf;
       text-decoration: none;
-      display: block;
-      margin-bottom: 2px;
+      flex: 1;
     }}
-    .news-item a:hover {{ text-decoration: underline; }}
-    .meta {{
-      font-size: 11px;
-      color: #999;
-      display: block;
-      margin-bottom: 4px;
+    .item-header a:hover {{ text-decoration: underline; }}
+    .badge {{
+      flex-shrink: 0;
+      font-size: 10px;
+      font-weight: 500;
+      padding: 2px 7px;
+      border-radius: 8px;
+      white-space: nowrap;
+      margin-top: 2px;
     }}
-    .summary {{
-      font-size: 13px;
-      color: #555;
-      margin: 0;
-      line-height: 1.5;
-    }}
+    .meta {{ font-size: 11px; color: #999; display: block; margin-bottom: 4px; }}
+    .summary {{ font-size: 13px; color: #555; margin: 0; line-height: 1.5; }}
   </style>
 </head>
 <body>
   <h1>AI News for Web Engineers</h1>
-  <p class="updated">最終更新: {now}</p>
-  {section_html}
+  <p class="meta-bar">最終更新: {now} &nbsp;·&nbsp; {total}件</p>
+  {items_html}
 </body>
 </html>"""
 
@@ -190,18 +227,19 @@ def main():
     client = anthropic.Anthropic(api_key=api_key)
     cache = load_cache()
 
-    sections = []
+    all_items = []
     for feed_info in FEEDS:
         print(f"Fetching {feed_info['name']}...")
         items = fetch_feed(feed_info, client, cache)
-        sections.append({"name": feed_info["name"], "items": items})
+        all_items.extend(items)
+        print(f"  -> {len(items)} relevant items")
 
     save_cache(cache)
 
-    output = build_html(sections)
+    output = build_html(all_items)
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(output)
-    print("index.html generated.")
+    print(f"index.html generated. total={len(all_items)} items")
 
 
 if __name__ == "__main__":
