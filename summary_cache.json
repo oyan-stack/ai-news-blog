@@ -1,0 +1,150 @@
+{
+  "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud": {
+    "category": 4,
+    "summary": "Railwayが$1億の資金調達を完了し、AI対応クラウドインフラでAWSに対抗する動きを加速。AI アプリケーション需要の増加に伴い、従来のクラウドインフラの限界が顕在化する中、開発者向けプラットフォームの競争環境が変わる可能性がある。"
+  },
+  "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free": {
+    "category": 2,
+    "summary": "AnthropicのClaude CodeはAIコーディング機能を提供していますが、月額20～200ドルの高額な料金設定が開発者の反発を招いています。同等の機能を無料で提供するGooseなどの競合ツールが登場し、有料AIツールの価値提案が問われている状況です。"
+  },
+  "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai": {
+    "category": 4,
+    "summary": "Listen Labsが6900万ドルの資金調達を実施し、AIカスタマーインタビュープラットフォームのスケーリングを加速させます。大型資金調達は業界全体への影響を示す事例として該当します。"
+  },
+  "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and": {
+    "category": 2,
+    "summary": "SalesforceがSlackbotを完全に再構築し、通知ツールからエンタープライズデータ検索、ドキュメント作成、自動実行が可能なAIエージェントへと進化させました。Slack内での業務自動化がより高度になり、ワークフロー効率化の新しい選択肢が増えます。"
+  },
+  "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no": {
+    "category": 2,
+    "summary": "AnthropicがClaude Desktopの新機能「Cowork」をリリースしました。これはClaude Codeの機能を非技術ユーザーでも利用可能にするAIエージェント機能で、コーディング不要でファイル操作が可能になります。"
+  },
+  "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in": {
+    "category": 1,
+    "summary": "Nous Researchがオープンソースのコーディングモデル「NousCoder-14B」をリリースしました。わずか4日間でNvidia B200 GPUを用いて訓練され、より大規模な専有モデルと同等以上のパフォーマンスを実現しており、開発者が無料で活用できるコーディング支援ツールとなります。"
+  },
+  "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are": {
+    "category": 2,
+    "summary": "AnthropicのClaudeコード開発者がワークフローを公開し、開発者コミュニティから大きな反応を得ています。Claude Codeの実装パターンや最適な使用方法についての知見が共有されており、AIを活用した開発プロセスの実践的な方針が明らかになっています。"
+  },
+  "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/": {
+    "category": 1,
+    "summary": "月額7ドルの低コストVPSでAIエージェントを動作させ、IRCをトランスポート層として使用するプロジェクトが公開されました。最小限のリソースで実用的なAIエージェントを運用できる実装例として、エンジニアの参考になる事例です。"
+  },
+  "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai": {
+    "category": 4,
+    "summary": "Palantirという議論の多いAI企業がニューヨーク市の病院との契約を終了される一方、英国での事業拡大を進めている。AI企業の社会的信頼性と規制環境の違いが、実装戦略に影響を与えている事例として注目される。"
+  },
+  "https://www.theguardian.com/lifeandstyle/2026/mar/26/ai-chatbot-users-lives-wrecked-by-delusion": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://github.com/jonwiggins/optio": {
+    "category": 1,
+    "summary": "Optio は Kubernetes 上で AI コーディングエージェントを統合管理し、チケットから PR マージまでを自動化するオープンソースツール。複数のエージェントセッションを一元管理でき、開発者の入力作業を削減できます。"
+  },
+  "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/": {
+    "category": 2,
+    "summary": "GoogleがTurboQuantという極度な圧縮技術でAIモデルの効率性を大幅に改善する研究成果を発表しました。このアプローチにより、モデルのサイズを削減しながら性能を維持でき、エッジデバイスやコスト制約のある環境でのAIモデル展開が現実的になります。"
+  },
+  "https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/": {
+    "category": 4,
+    "summary": "OpenAIがAI動画生成ツール「Sora」をシャットダウンし、Disneyがこれに伴いOpenAiとのパートナーシップから撤退しました。AI業界の主要企業による事業戦略の大きな変更であり、AI動画生成分野の競争環境に影響を与えています。"
+  },
+  "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://opper.ai/ai-roundtable/": {
+    "category": 1,
+    "summary": "複数のAIモデルに同じ質問を投げて比較できる新しいツール「AI Roundtable」がリリースされました。200以上のモデルから最大50個を選んで同一条件で回答させ、構造化された結果を得られ、サインアップ不要で無料利用可能です。"
+  },
+  "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/": {
+    "category": 2,
+    "summary": "GitHub Actions の 2026年セキュリティロードマップが発表され、セキュアなデフォルト設定、ポリシーコントロール、CI/CD 可観測性の強化により、ソフトウェアサプライチェーン全体のセキュリティが向上します。CI/CD パイプラインの運用環境として実務的な影響が大きいアップデートが予定されています。"
+  },
+  "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/": {
+    "category": 2,
+    "summary": "GitHub Copilotの利用データ活用ポリシーが4月24日から変更され、ユーザーの入力・出力・コード断片がモデル改善に使用されるようになります。オプトアウト可能ですが、AI訓練データとしての利用が拡大するため、個人情報やセンシティブなコードを扱う際の注意が必要です。"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/": {
+    "category": 2,
+    "summary": "GitHub Copilot SDKをReact Nativeアプリに統合してAI駆動のIssue要約生成を実現する方法が紹介されました。キャッシングとグレースフルデグラデーションなどの本番環境パターンが含まれており、開発者はこのSDKを活用してIssue管理の自動化を構築できます。"
+  },
+  "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/": {
+    "category": 2,
+    "summary": "GitHubのCode Securityが、CodeQLとAI駆動の検出機能を組み合わせて、より多くのプログラミング言語とフレームワークに対応した脆弱性検出機能を拡張しました。開発者は従来より広い範囲のセキュリティ脅威を自動的に検出できるようになります。"
+  },
+  "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/": {
+    "category": 2,
+    "summary": "GitHub Copilotがリポジトリ内でマルチエージェントワークフローを実行する「Squad」機能を公開しました。検査可能で予測可能な協調的なAIエージェント設計パターンにより、開発プロセスの自動化と効率化が期待できます。"
+  },
+  "https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/": {
+    "category": 4,
+    "summary": "GitHubがオープンソース開発者への資金提供とセキュリティ支援を強化し、Alpha-Omegaとのパートナーシップを通じてソフトウェアサプライチェーンの脆弱性低減に取り組んでいます。開発者のセキュリティ対応負担を軽減する施策により、業界全体のセキュリティ強化につながることが期待されます。"
+  },
+  "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/": {
+    "category": 2,
+    "summary": "GitHubがアクセシビリティフィードバックの自動トリアージにAIを活用し、修正プロセスを高速化しています。開発者は膨大なバックログから解放され、より効率的にアクセシビリティの問題に対応できるようになります。"
+  },
+  "https://openai.com/index/our-approach-to-the-model-spec": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://openai.com/index/safety-bug-bounty": {
+    "category": 4,
+    "summary": "OpenAIが安全性バグバウンティプログラムを開始し、AI悪用やセキュリティリスク（エージェント脆弱性、プロンプトインジェクション、データ流出など）の報告を募集しています。Webエンジニアは自社AIシステムでの同様の脆弱性対策を強化する必要があります。"
+  },
+  "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard": {
+    "category": 2,
+    "summary": "OpenAIが未成年向けAIシステム用の安全ポリシー機能「gpt-oss-safeguard」をリリース。開発者はプロンプトベースのポリシー設定により、年齢別のリスク管理が可能になり、実装の安全性向上が期待できる。"
+  },
+  "https://openai.com/index/powering-product-discovery-in-chatgpt": {
+    "category": 2,
+    "summary": "ChatGPTが新しいAgentic Commerce Protocolを導入し、商品検索、比較機能、マーチャント統合を備えた視覚的に豊かなショッピング機能を追加しました。Webエンジニアはこの新プロトコルを通じてChatGPT内での商品展示やAPI連携の実装が可能になります。"
+  },
+  "https://openai.com/index/update-on-the-openai-foundation": {
+    "category": 4,
+    "summary": "OpenAI Foundationが疾病治療、経済機会、AI耐性、コミュニティプログラムに最低10億ドルの投資を発表しました。AI業界全体のガバナンスと社会的責任に関わる大型資金配分です。"
+  },
+  "https://openai.com/index/creating-with-sora-safely": {
+    "category": 2,
+    "summary": "OpenAIが安全性を重視した新世代動画生成モデル「Sora 2」と専用アプリをリリースしました。Webエンジニアは新しい動画生成APIの安全機構やコンテンツ検証機能を活用したアプリケーション開発が可能になります。"
+  },
+  "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://openai.com/index/openai-to-acquire-astral": {
+    "category": 4,
+    "summary": "OpenAIがPythonツール開発企業Astralを買収し、Codexの強化を加速させます。この買収により、次世代のPython開発者向けツール・APIがより高度になり、開発生産性向上が期待できます。"
+  },
+  "https://openai.com/index/japan-teen-safety-blueprint": {
+    "category": 0,
+    "summary": ""
+  },
+  "https://openai.com/index/introducing-gpt-5-4-mini-and-nano": {
+    "category": 2,
+    "summary": "GPT-5.4のminiとnanoという小型モデルが新たにリリースされました。これらはコーディング、ツール利用、マルチモーダル推論に最適化されており、高頻度のAPI呼び出しやサブエージェント用途で低遅延・低コストの実行が可能になります。"
+  }
+}
