@@ -340,5 +340,77 @@
     "summary": "Webtoonが、ユーザー投稿型マンガプラットフォーム「Canvas」にAI翻訳・ローカライゼーション機能を追加し、クリエイターが自動的に複数言語対応できるようになります。これにより、開発者はAPI経由で多言語化機能を活用でき、グローバルな読者層へのリーチが容易になります。",
     "priority": "medium",
     "cache_version": "2"
+  },
+  "https://standupforme.app/blog/some-uncomfortable-truths-about-ai-coding-agents/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://lara-aigmueller.at/thoughts/leaving-the-ai-party/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/": {
+    "category": 2,
+    "summary": "Anthropicが次世代モデル「Claude Mythos」をテスト中であり、現在のClaudeシリーズから大幅な性能向上を実現する見通しです。本リリースではAPI仕様の変更が予想されるため、既存のClaudeを統合したアプリケーションは互換性確認が必要になる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.lbc.co.uk/article/librarian-gobsmacked-school-ai-remove-books-5HjdWsc_2/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/stadler": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
