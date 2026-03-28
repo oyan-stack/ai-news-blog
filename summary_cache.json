@@ -592,5 +592,101 @@
     "summary": "Claude CodeからFigmaへのAI統合により、生成されたプロダクションコードを直接編集可能なFigmaデザインに変換できるようになりました。これにより、コード生成からデザイン作成までのワークフローが一貫して実行でき、開発効率が大幅に向上します。WebエンジニアはClaudeで生成したコードをFigmaに取り込んで即座にUI/UXとして可視化・編集でき、デザイナーとの連携がシームレスになります。",
     "priority": "medium",
     "cache_version": "2"
+  },
+  "https://lzon.ca/posts/other/thoughts-ai-era/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://twitter.com/BoWang87/status/2037648937453232504": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai": {
+    "category": 4,
+    "summary": "Wikipediaが生成AI による記事投稿を禁止する方針を決定し、今後AIツールで作成されたコンテンツは掲載されなくなります。この方針により、Wikipedia APIを利用してコンテンツ自動生成・自動投稿を行うシステムやボットの実装は機能しなくなるため、同プラットフォームへの自動化連携機能を持つサービス・アプリケーションは見直しが必要です。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theregister.com/2026/03/27/sycophantic_ai_risks/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://news.ycombinator.com/item?id=47555081": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theregister.com/2026/03/26/greg_kroahhartman_ai_kernel/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/": {
+    "category": 1,
+    "summary": "Blueskyが新アプリ「Attie」をリリースし、AIを活用してatprotoプロトコル上でカスタムフィードの構築を支援します。このツールにより、開発者はフィード生成ロジックをコード記述なしで実装できるようになり、atproto APIを利用したフィードカスタマイズの開発効率が大幅に向上します。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model": {
+    "category": 2,
+    "summary": "Sunoが音楽生成AI「v5.5」をリリースし、音質向上から利用者の制御性向上へシフト、新たに「Voices」「My Taste」「Custom Models」の3機能が追加されました。これらの機能によりユーザーはより細かいカスタマイズが可能になり、APIやプロダクト連携時の柔軟性が大幅に向上します。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition": {
+    "category": 4,
+    "summary": "OpenAIが動画生成アプリSoraの開発中止を発表し、ChatGPT内の動画生成機能も廃止するため、Webエンジニアが依存していたVideo Generation APIの利用ができなくなります。また、Disneyとの10億ドル規模の提携も解消されるため、動画コンテンツ生成を組み込んでいたプロダクトは代替ソリューションへの移行が必要になります。",
+    "priority": "high",
+    "cache_version": "2"
   }
 }
