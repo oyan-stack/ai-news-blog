@@ -32,9 +32,21 @@ FEEDS = [
         "name": "The Verge AI",
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
     },
+    {
+        "name": "Google Blog",
+        "url": "https://blog.google/feed/",
+    },
+    {
+        "name": "Microsoft Blog",
+        "url": "https://blogs.microsoft.com/?feed=rss2",
+    },
+    {
+        "name": "Figma Blog",
+        "url": "https://www.figma.com/blog/feed/atom.xml",
+    },
 ]
 
-MAX_ITEMS = 10
+MAX_ITEMS = 15
 CACHE_FILE = "summary_cache.json"
 HISTORY_FILE = "article_history.json"
 WEEKLY_SUMMARY_FILE = "weekly_summary.json"
