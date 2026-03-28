@@ -159,12 +159,45 @@ def title_similarity(t1, t2):
     return len(s1 & s2) / len(s1 | s2)
 
 
-def deduplicate(items, threshold=0.55):
+def extract_domain(url):
+    try:
+        match = re.search(r"https?://(?:www\.)?([^/]+)", url)
+        return match.group(1) if match else ""
+    except Exception:
+        return ""
+
+
+def is_duplicate(item, existing, title_threshold=0.55, date_window_hours=72):
+    # 同一URLは確実に重複
+    if item["link"] == existing["link"]:
+        return True
+
+    # 同一ドメインは別記事として扱う（同サイト内の別記事を誤統合しない）
+    if extract_domain(item["link"]) == extract_domain(existing["link"]):
+        return False
+
+    # タイトル類似度が閾値未満なら別記事
+    sim = title_similarity(item["title"], existing["title"])
+    if sim < title_threshold:
+        return False
+
+    # タイトルが似ていても公開日時が離れすぎている場合は別記事
+    ts1 = item["published_ts"]
+    ts2 = existing["published_ts"]
+    if ts1 > 0 and ts2 > 0:
+        diff_hours = abs(ts1 - ts2) / 3600
+        if diff_hours > date_window_hours:
+            return False
+
+    return True
+
+
+def deduplicate(items):
     merged = []
     for item in items:
         matched = False
         for existing in merged:
-            if title_similarity(item["title"], existing["title"]) >= threshold:
+            if is_duplicate(item, existing):
                 sources = existing["source"].split(" / ")
                 if item["source"] not in sources:
                     existing["source"] = existing["source"] + " / " + item["source"]
