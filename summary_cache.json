@@ -418,5 +418,179 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://openai.com/index/equipping-workers-with-insights-about-compensation": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/why-codex-security-doesnt-include-sast": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/rakuten": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/designing-agents-to-resist-prompt-injection": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/": {
+    "category": 4,
+    "summary": "Microsoftが2026年3月17日、Copilotの組織体制を再編し、AI統合を強化する経営方針を発表しました。Mustafa SuleymanがマイクロソフトAIのCEOとして新たに就任し、生産性向上を目指した新世代のAI体験提供に向けた体制整備が進められます。この変更に伴い、開発者向けのCopilot APIやAI統合ツールの今後の方向性に影響が出る可能性があるため、企業のAI導入戦略の見直しが必要になる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/": {
+    "category": 4,
+    "summary": "MicrosoftとOpenAIは2019年以来のAI開発における継続的なパートナーシップを確認し、相互信頼と深い技術統合に基づいた長期的な協力姿勢を示しています。このパートナーシップは、開発者がアクセス可能なAIツール・API群の継続的な提供と改善につながる予定です。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/24/microsoft-sovereign-cloud-adds-governance-productivity-and-support-for-large-ai-models-securely-running-even-when-completely-disconnected/": {
+    "category": 2,
+    "summary": "Microsoft Sovereign Cloudが、規制対応やオフライン環境での完全独立運用に対応したガバナンス・生産性・AI機能を提供開始したため、金融・公的機関などの規制産業向けシステム構築時にクラウド選定基準が変わる可能性があります。オンプレミス環境での大規模AIモデル運用やデータ主権確保が必要なプロジェクトでは、Microsoft Sovereign CloudのAPIやサービスが既存クラウド選択肢の代替候補となります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/20/asha-sharma-named-evp-and-ceo-microsoft-gaming/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/18/a-milestone-achievement-in-our-journey-to-carbon-negative/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/04/updates-in-two-of-our-core-priorities/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/01/27/how-microsoft-is-empowering-frontier-transformation-with-intelligence-trust/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/figmas-next-generation-data-caching-platform/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/": {
+    "category": 3,
+    "summary": "Figmaキャンバス上でAIエージェントが直接デザイン作業を実行できるようになり、スキル機能を通じてチームの意図やコンテキストを指定してエージェントを制御可能になった。これによりデザイナーはAIに設計タスクを委譲しながら、チームのデザイン決定や意図を反映させたより正確なアウトプットが期待できます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/how-we-rebuilt-the-foundations-of-component-instances/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/designs-influence-is-expanding-and-heres-why-that-feels-hard/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/the-state-of-design/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/skills-for-the-ai-era/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/vishal-kapoors-10-rules-building-with-ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/supercharge-your-design-system-with-slots/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/3-ways-product-teams-are-building-conviction-faster-with-figma-make/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/config-speakers-looking-ahead-2026/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/workflow-lab-ai-image-tooling/": {
+    "category": 3,
+    "summary": "Figmaに画像編集とVectorize機能を組み合わせたAIツールが追加され、コンセプトから完成まで高速化できるようになりました。デザインからプロトタイプ化への一連のワークフローがFigma内で完結するため、ツール間の切り替えが削減され、制作効率が大幅に向上します。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/introducing-codex-to-figma/": {
+    "category": 3,
+    "summary": "Figmaに統合されたCodexにより、開発チームはコード生成と設計を循環的に行え、実行可能なUIをFigma上で協調編集した後、設計コンテキストを保持したまま開発環境に戻すワークフローが実現します。これによりデザイナーと開発者の往復作業が削減され、プロトタイプから本実装への移行が効率化されます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/redefining-impact-as-a-data-scientist/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/the-future-of-design-is-code-and-canvas/": {
+    "category": 3,
+    "summary": "FigmaがClaudeのコード生成能力を統合することで、デザイナーとエンジニアが従来のビジュアルキャンバスとコードベースの両方で効率的に作業できるようになります。これにより、デザインから実装への変換プロセスが加速し、APIレベルではFigmaがClaudeのコード生成機能を活用した新しいワークフローを提供することになります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/introducing-claude-code-to-figma/": {
+    "category": 3,
+    "summary": "Claude CodeからFigmaへのAI統合により、生成されたプロダクションコードを直接編集可能なFigmaデザインに変換できるようになりました。これにより、コード生成からデザイン作成までのワークフローが一貫して実行でき、開発効率が大幅に向上します。WebエンジニアはClaudeで生成したコードをFigmaに取り込んで即座にUI/UXとして可視化・編集でき、デザイナーとの連携がシームレスになります。",
+    "priority": "medium",
+    "cache_version": "2"
   }
 }
