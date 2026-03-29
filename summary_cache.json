@@ -688,5 +688,35 @@
     "summary": "OpenAIが動画生成アプリSoraの開発中止を発表し、ChatGPT内の動画生成機能も廃止するため、Webエンジニアが依存していたVideo Generation APIの利用ができなくなります。また、Disneyとの10億ドル規模の提携も解消されるため、動画コンテンツ生成を組み込んでいたプロダクトは代替ソリューションへの移行が必要になります。",
     "priority": "high",
     "cache_version": "2"
+  },
+  "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition": {
+    "category": 4,
+    "summary": "AI顔認識システムが誤認逮捕を引き起こした事例で、法執行機関による不正確な顔認識技術の運用リスクが顕在化しています。このような事例の増加に伴い、顔認識APIの精度検証やバイアス監査の強化、および政府規制への対応がWebエンジニアにとって重要な実装要件となる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.com/austin-weeks/miasma": {
+    "category": 1,
+    "summary": "Miasmaは、AIのウェブスクレイパーを無限ループに陥らせて資源を浪費させるツールで、サイトの`robots.txt`やメタタグを通じてボット誘導コンテンツを配信し、スクレイピング対策として実装可能です。Webエンジニアは自サイトにこのツールを組み込むことで、データ抽出目的のクローラーに対する防御層を追加できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.ft.com/content/805f78f3-8da3-4fc0-b860-207a859ac723": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
