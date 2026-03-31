@@ -121,11 +121,15 @@ def load_cache():
     raw = load_json(CACHE_FILE)
     converted = {}
     for k, v in raw.items():
+        if not isinstance(k, str):
+            continue
         if isinstance(v, str):
-            # 旧形式（文字列のみ）
             converted[k] = {"category": 0, "summary": v, "priority": "low", "cache_version": "0"}
-        elif isinstance(v, dict):
+        elif isinstance(v, dict) and "category" in v:
             converted[k] = v
+        else:
+            # 想定外の形式はスキップして再分類させる
+            continue
     return converted
 
 
