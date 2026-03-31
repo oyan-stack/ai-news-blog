@@ -1,0 +1,584 @@
+{
+  "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and": {
+    "category": 2,
+    "summary": "Salesforceが再構築したSlackbot AIエージェントを正式リリースし、単なる通知ツールから企業データ検索、ドキュメント作成、従業員の代わりに行動可能なフル機能のAIエージェントに進化させました。これにより、Slack APIを利用した自動化ワークフローの拡張やエンタープライズデータ統合の新たな実装パターンが可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no": {
+    "category": 1,
+    "summary": "AnthropicがCoworkという新しいAIエージェント機能をリリースしました。これはClaudeDesktopの機能拡張で、コーディング知識がないユーザーでもファイル操作やデータ処理を自動化できます。Claude Code自体を使って約1週間半で開発されており、実務ではノーコードで複雑なファイル操作やデータ分析タスクを自動化可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in": {
+    "category": 1,
+    "summary": "Nous Researchが開発したオープンソースコーディングモデル「NousCoder-14B」は、わずか4日間でNvidia B200 GPUを使用して学習され、より大規模なプロプライエタリモデルと同等以上の性能を実現しています。Webエンジニアは、このオープンソースモデルを自社環境で導入・カスタマイズ可能な選択肢として活用でき、高額なAPI費用の削減やプライベートデプロイメントが期待できます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://negroniventurestudios.com/2026/03/19/the-ladder-is-missing-rungs/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://arxiv.org/abs/2603.26524": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theregister.com/2026/03/24/ai_job_unbundling/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition": {
+    "category": 4,
+    "summary": "AI顔認識システムの誤認識により、テネシー州の女性が北ダコタ州の犯罪で誤逮捕される事件が発生し、顔認識技術の精度・バイアス問題と法執行機関での運用ルール整備の必要性が改めて浮き彫りになりました。Webエンジニアの立場では、顔認識APIやML モデルの信頼性検証、特に少数派データセットでの性能低下への対策と、API利用者側での多段階検証フローの実装が実務上の重要な課題となります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.com/austin-weeks/miasma": {
+    "category": 1,
+    "summary": "Miasmaは、AIのWebスクレイパーを無限ループに陥らせる防御ツールで、GitHubで公開されています。このツールを導入することで、AIボットによる不正なコンテンツ収集を技術的に阻止でき、Webサイト運営者の実務負担を軽減できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.ft.com/content/805f78f3-8da3-4fc0-b860-207a859ac723": {
+    "category": 4,
+    "summary": "AIデータセンター市場が9兆ドル規模の過剰投資となる可能性が指摘されており、インフラ投資の効率化やコスト最適化がWebサービス企業の重要課題になりつつあります。開発者は今後、エッジコンピューティングやマルチクラウド戦略の導入、API設計時のレイテンシ・スループット最適化をより意識する必要が出てくるでしょう。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://lzon.ca/posts/other/thoughts-ai-era/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://twitter.com/BoWang87/status/2037648937453232504": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai": {
+    "category": 4,
+    "summary": "Wikipediaが公式にAI生成コンテンツを禁止する方針を採択し、今後はAIで作成された記事や編集内容の投稿が認められなくなります。これにより、WikipediaのAPIを活用した自動編集ツールやAI支援の記事作成スクリプトは使用不可となるため、Wikipediaデータに依存するWebアプリケーションやナレッジベースシステムの開発戦略の見直しが必要になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theregister.com/2026/03/27/sycophantic_ai_risks/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://news.ycombinator.com/item?id=47555081": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/": {
+    "category": 2,
+    "summary": "GitHub Copilotは2024年4月24日から、ユーザーの入力・出力・コードスニペットなどのインタラクションデータをモデル改善のため学習に使用するポリシーに変更されます（オプトアウト可能）。Copilot Free/Pro/Pro+ユーザーは、プライバシー設定を確認した上でオプトアウト手続きが必要になる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/": {
+    "category": 3,
+    "summary": "GitHub Copilot SDKをReact Nativeアプリに統合してAI駆動のIssue自動分類機能を実装できるようになり、キャッシングとグレースフルデグラデーション対応により本番環境での実装パターンが確立されました。Copilot SDKの新APIにより、開発者はGitHubプラットフォーム上で自動要約やトリアージなどのAI機能をカスタムアプリケーションに組み込むことが可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/": {
+    "category": 3,
+    "summary": "GitHubのCode Securityに新たにAI駆動の脆弱性検出機能が追加され、CodeQLと組み合わせることで、これまで対応していなかったプログラミング言語やフレームワークの脆弱性検出が可能になりました。これにより、開発者は本番環境へのデプロイ前にセキュリティリスクをより広範に検出・修正できるため、CI/CDパイプラインでの脆弱性スキャンの精度が向上します。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/": {
+    "category": 3,
+    "summary": "GitHub Copilotに複数のAIエージェントを協調動作させるSquad機能が追加され、リポジトリ内でインスペクト可能で予測可能なマルチエージェントワークフローが実現可能になりました。この機能により、開発チームはAIによる自動化をより透明性高く、協調的に運用できるようになります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/helping-disaster-response-teams-asia": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/stadler": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/our-approach-to-the-model-spec": {
+    "category": 4,
+    "summary": "OpenAIが公開した「Model Spec」は、AIモデルの振る舞いに関する標準フレームワークであり、安全性・ユーザー自由度・説明責任のバランスを定義しています。Webエンジニアはこの仕様に基づいてOpenAI APIを利用する際の動作予測が容易になり、モデルの制約条件やコンテンツポリシーの理解が実装設計に直結する形で明確化されます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/safety-bug-bounty": {
+    "category": 4,
+    "summary": "OpenAIが安全性脆弱性を報告するBug Bounty プログラムを開始し、prompt injection、データ流出、エージェント型AIの脆弱性などの報告に対して報奨金を支給します。Webエンジニアはこのプログラムを通じて発見した脆弱性を報告することで、API利用時のセキュリティリスク（特にプロンプトインジェクション対策）への認識を深め、実装時に防御策を強化する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/update-on-the-openai-foundation": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/powering-product-discovery-in-chatgpt": {
+    "category": 3,
+    "summary": "ChatGPTが「Agentic Commerce Protocol」を導入し、商品検索・比較・マーチャント統合を実現するリッチな買い物体験を提供開始します。Webエンジニアは新プロトコルへの対応とAPI連携により、ChatGPT経由での商品情報配信・決済フローの実装が必要になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/creating-with-sora-safely": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/openai-to-acquire-astral": {
+    "category": 4,
+    "summary": "OpenAIがPythonの開発ツール向けコード生成AIを強化するため、Astralを買収しました。この買収によりCodexの成長が加速し、Pythonエコシステム向けのAI支援開発ツールがより高度になることが期待されます。Webエンジニアは、Python関連のAI支援コーディング機能がより充実したツールやAPIの提供を今後見込めます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/introducing-gpt-5-4-mini-and-nano": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/japan-teen-safety-blueprint": {
+    "category": 4,
+    "summary": "OpenAI Japanがティーン向けの安全対策「Japan Teen Safety Blueprint」を発表し、年齢確認の強化、保護者コントロール、生成AI利用時の健全性保障を導入します。Webサービス開発時には年齢層に応じたアクセス制限やペアレンタルコントロール機能の実装が必要になり、OpenAI APIを組み込むアプリケーション側でもこれらの要件への対応が求められる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/equipping-workers-with-insights-about-compensation": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/why-codex-security-doesnt-include-sast": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/rakuten": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/": {
+    "category": 1,
+    "summary": "Blueskyが新アプリ「Attie」をリリースし、AI機能を活用してatprotoプロトコル上のカスタムフィード構築を簡素化しました。ウェブエンジニアはAIを利用したフィード生成APIを統合することで、ユーザーが自動的に最適化されたコンテンツフィルタリングロジックを作成できるようになり、開発工数の削減と利用者体験の向上が期待できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds": {
+    "category": 1,
+    "summary": "BlueskeyチームがAnthropic's Claudeを使用したAI助手「Attie」をリリースしており、AT Protocolの上に構築されているため、分散型SNSプラットフォームの開発者はこのAPIを活用してユーザーカスタマイズ可能なアルゴリズムフィードの実装が可能になります。これによりフィード制御がプラットフォーム側から開発者/ユーザー側へシフトする重要な変化をもたらしています。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model": {
+    "category": 2,
+    "summary": "Sunoが音楽生成AI「v5.5」をリリースし、音質向上から**ユーザーコントロール重視へシフト**、新たに「Voices」「My Taste」「Custom Models」の3機能を追加して、カスタマイズ性が大幅に向上しました。これにより音楽生成APIの利用者は独自の音声やスタイルを保持した楽曲生成が可能になり、プロダクト内での個別化ニーズへの対応が容易になります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition": {
+    "category": 4,
+    "summary": "OpenAIが動画生成ツール「Sora」の提供中止とChatGPT内での動画生成機能の廃止を発表し、Webエンジニアが依存していた動画生成APIが利用できなくなるため、代替ツールへの移行対応が必要になります。また同時にDisneyとの10億ドル規模のパートナーシップ契約も解除されるなど、生成AI関連のビジネス戦略が大きく転換されています。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction": {
+    "category": 4,
+    "summary": "Anthropicが国防総省による供給チェーンリスク指定に対する仮差し止め命令を勝ち取り、訴訟プロセス中は政府ブラックリスト指定が一時的に解除される見込みとなりました。この決定により、米国防省との契約や関連するAPI・サービス提供に対する制限が一時的に緩和される可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar": {
+    "category": 4,
+    "summary": "David SacksがホワイトハウスのAI・暗号資産担当特別顧問を退任したことで、シリコンバレーのAI政策への直接的な影響力が低下し、トランプ政権のAI規制方針の方向性が不確定となる可能性があります。これにより、AI企業や暗号資産企業の規制対応戦略の見直しが必要になる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/": {
+    "category": 4,
+    "summary": "MicrosoftのCopilot組織で経営体制を刷新し、AI生産性ツールの開発体制を強化する発表です。Satya NadellaおよびMustafa Suleymanによるリーダーシップ変更により、Copilot AIサービスと関連APIの開発戦略が再編成される見通しで、開発者向けのAPIインターフェースやCopilot統合機能に影響が生じる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai/": {
+    "category": 2,
+    "summary": "MicrosoftはNVIDIA GTCでMicrosoft Foundryの機能を拡張し、本番環境対応のAIエージェントの構築・デプロイ・運用を容易にするソリューションを発表しました。Azure AI基盤インフラの強化により、NVIDIAのハードウェアとMicrosoftのクラウドスケール技術を統合したAI開発環境がさらに充実し、エンタープライズユーザーはより高度なAI機能を活用できるようになります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/": {
+    "category": 4,
+    "summary": "MicrosoftとOpenAIが2019年から継続している戦略的パートナーシップについて、両社が相互信頼と技術統合を基盤とした長期的な協業を継続することを発表しました。Webエンジニアの実務面では、Azure OpenAI ServiceやCopilotなどのAPI・ツール統合が今後も強化される見込みであり、これらのプラットフォームへの継続的な投資が期待できます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/24/microsoft-sovereign-cloud-adds-governance-productivity-and-support-for-large-ai-models-securely-running-even-when-completely-disconnected/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/20/asha-sharma-named-evp-and-ceo-microsoft-gaming/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/18/a-milestone-achievement-in-our-journey-to-carbon-negative/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/02/04/updates-in-two-of-our-core-priorities/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/01/27/how-microsoft-is-empowering-frontier-transformation-with-intelligence-trust/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/figmas-next-generation-data-caching-platform/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/": {
+    "category": 3,
+    "summary": "Figmaキャンバス上でAIエージェントが直接デザイン作業を実行できるようになり、Skillsという機能でチームの意思決定やコンテキストを指示できるようになりました。これによりデザインワークフローが自動化され、デザイナーはより戦略的なタスクに集中可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/how-we-rebuilt-the-foundations-of-component-instances/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/designs-influence-is-expanding-and-heres-why-that-feels-hard/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/the-state-of-design/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/skills-for-the-ai-era/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/vishal-kapoors-10-rules-building-with-ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/supercharge-your-design-system-with-slots/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/3-ways-product-teams-are-building-conviction-faster-with-figma-make/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/config-speakers-looking-ahead-2026/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/workflow-lab-ai-image-tooling/": {
+    "category": 3,
+    "summary": "Figmaにおけるワークフローラボの新機能として、AI画像編集ツール、Vectorize機能、インタラクティブプロトタイピングが統合され、デザインコンセプトから完成までのサイクルが高速化されます。Web/UIデザイナーはFigma内で画像編集からベクトル化、プロトタイプの検証までを一連のワークフローで実行でき、外部ツールへの切り替え作業が削減されます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/introducing-codex-to-figma/": {
+    "category": 3,
+    "summary": "CodexとFigmaの連携により、デザインと開発の往復作業が効率化され、FigmaでUIを実装・検証してからコードに戻すワークフローが実現します。これにより、デザイナーと開発者がビジュアルコンテキストを保ったまま協業でき、プロトタイピングから実装までの時間短縮が期待できます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/redefining-impact-as-a-data-scientist/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/the-future-of-design-is-code-and-canvas/": {
+    "category": 3,
+    "summary": "FigmaがClaudeと統合し、コード記述とビジュアルキャンバスの両方でデザイン制作ができるようになりました。この機能追加により、開発者とデザイナーはそれぞれ好みの方法で作業でき、ワークフローの選択肢が増えることで実装効率が向上します。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/introducing-claude-code-to-figma/": {
+    "category": 3,
+    "summary": "Claude CodeでAIが生成した本番コードをFigmaで編集可能なデザインに直接変換できるようになりました。これにより、コード→デザイン→実装という開発ワークフローが統合され、デザイナーとエンジニア間の手戻りが削減されます。API連携により、Claude生成コードをFigmaコンポーネントとして直接利用できるため、プロトタイプから本番実装までの時間短縮が期待できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  }
+}
