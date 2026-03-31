@@ -580,5 +580,107 @@
     "summary": "Claude CodeでAIが生成した本番コードをFigmaで編集可能なデザインに直接変換できるようになりました。これにより、コード→デザイン→実装という開発ワークフローが統合され、デザイナーとエンジニア間の手戻りが削減されます。API連携により、Claude生成コードをFigmaコンポーネントとして直接利用できるため、プロトタイプから本番実装までの時間短縮が期待できます。",
     "priority": "medium",
     "cache_version": "2"
+  },
+  "https://github.com/virpo/pegboard": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://nypost.com/2026/03/28/tech/wikipedia-officially-bans-ai-generated-encyclopedia-entries/": {
+    "category": 4,
+    "summary": "Wikipediaが公式にAI生成コンテンツを禁止したため、Wikipedia APIを活用したアプリケーションやボットは今後AIによる自動投稿・編集が不可能になり、コンテンツ品質管理の実装が必須となります。Web開発者がWikipedia連携機能を実装する際は、ユーザーによる手動編集やAI校正後の人間確認プロセスを組み込む必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/accelerating-the-next-phase-ai": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/": {
+    "category": 3,
+    "summary": "SalesforceがSlackに30個の新機能を追加し、AI機能を大幅に強化しました。これによりSlack内でのメッセージ要約、ワークフロー自動化、データ分析がAI支援で可能になり、Webエンジニアは既存のSlack APIを活用したボット・アプリ開発の際にこれらのAI機能を統合できるようになります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/": {
+    "category": 3,
+    "summary": "Amazon AlexaがUber EatsとGrubhubと連携し、音声で食事注文ができるようになりました。Alexa+を通じてウェイターやドライブスルーのような自然な会話形式での注文体験が実現され、Webエンジニアはこれら決済APIの統合やボイスUIの実装対応が必要になります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak": {
+    "category": 4,
+    "summary": "Anthropic のClaudeコードの更新版2.1.88でTypeScriptソースコードを含むソースマップファイルが誤って含まれ、512,000行以上のコードが流出しました。流出したコードには、ペット育成ゲーム風のUIやAIエージェント機能など、開発中の機能の詳細が含まれており、本番環境でのパッケージ配布時のセキュリティ対策強化が重要になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt": {
+    "category": 3,
+    "summary": "AppleのiOS 26.4更新によりCarPlayで音声ベースの会話型アプリが対応され、ChatGPTをCarPlayダッシュボードから利用できるようになりました。Webエンジニアは、音声インターフェース対応アプリをCarPlayに統合する際、Apple公式のCarPlay APIドキュメントを確認し、音声入出力の実装仕様に対応する必要があります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/903938/alexa-plus-order-food-grubhub-uber-eats": {
+    "category": 3,
+    "summary": "AmazonのAlexa Plusが会話形式のインターフェースでGrubhubとUber Eatsの注文を可能にし、ユーザーは自然言語で注文内容を変更・追加できるようになりました。これにより音声UIの実装パターンが広がり、フードデリバリーAPIの音声対応が新たな実装課題となります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
