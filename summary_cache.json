@@ -682,5 +682,101 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://bastian.rieck.me/blog/2026/bs/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.zdnet.com/article/maybe-open-source-needs-ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://getbaton.dev/": {
+    "category": 1,
+    "summary": "AI エージェント開発を効率化するデスクトップアプリ「Baton」が登場し、複数の Claude Code エージェントを一元管理でき、worktree の切り替え・ステータス監視・変更レビューが GUI で可能になりました。IDE やターミナルを複数開く手間が削減され、エージェント駆動開発の実務ワークフローが大幅に改善される見込みです。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/": {
+    "category": 2,
+    "summary": "Copilot CLIに新しく追加された`/fleet`コマンドにより、複数のエージェントを並列実行できるようになり、ファイル間での作業分割や依存関係の管理が可能になりました。これにより開発効率が向上し、大規模なコーディングタスクの自動化がより柔軟に実装できます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/gradient-labs": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update": {
+    "category": 2,
+    "summary": "Elgato Stream Deck 7.4では Model Context Protocol（MCP）サポートが追加され、ClaudeやChatGPTなどのAIアシスタントがStream Deckのボタン操作を自動化できるようになりました。これにより、開発者は音声コマンドやテキストプロンプトを通じてストリーミング配信やアプリケーション制御をAIに委譲し、ワークフロー効率を大幅に向上させることが可能になります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/6-designs-that-reimagine-how-we-interact-with-software/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
