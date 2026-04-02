@@ -778,5 +778,83 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://old.reddit.com/r/oldinternet/comments/1raiz8v/zombocom_was_stolen_by_hacker_put_up_for_sale_and/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/openai-acquires-tbpn": {
+    "category": 4,
+    "summary": "OpenAIが独立系メディア企業TBPNを買収し、AI関連の グローバルな対話を加速させる戦略を進めています。これにより、開発者やビジネス関係者、技術コミュニティとの連携強化が期待されますが、Webエンジニア向けの具体的なAPI変化やツール追加については、現時点ではこのニュースから直接的な実装影響は明確ではありません。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/codex-flexible-pricing-for-teams": {
+    "category": 2,
+    "summary": "OpenAIのCodexが、ChatGPT BusinessおよびEnterpriseプランに従量課金制を導入し、チームが段階的に導入・スケールできるようになりました。これにより、初期投資を抑えながらAI駆動開発ツールの導入検討が容易になり、API利用コストの最適化が可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/": {
+    "category": 1,
+    "summary": "Microsoftが音声認識、音声生成、画像生成に対応する3つの新しい基盤モデルをリリースしました。これらのマデルはAPI経由で利用可能になるため、Webアプリケーションに音声・画像処理機能を統合する際の選択肢が増え、マルチモーダル対応アプリの開発効率が向上します。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/": {
+    "category": 3,
+    "summary": "Googleの動画作成アプリ「Vids」にプロンプトベースのアバター操作機能が追加され、テキスト指示でアバターをカスタマイズ・操作できるようになります。これにより、動画制作の効率化とアバターの多様な表現が可能になり、Vids APIを利用する開発者は新たなアバター制御エンドポイントを活用して、プロンプト駆動の動画生成機能をアプリケーションに統合できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/906253/granola-note-links-ai-training-psa": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/906027/elon-musk-lawsuit-ipo-spacex-tesla": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn": {
+    "category": 4,
+    "summary": "OpenAIがAI業界の経営者やテック関連人物をインタビューする番組「TBPN」を買収し、公式メディアチャネルとして活用する方針を示していますが、Webエンジニア向けの直接的なAPIやツールの変化は報告されていません。現時点では実務への具体的な影響は限定的と考えられます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model": {
+    "category": 4,
+    "summary": "Microsoftが新設したAI専任CEOの職務が再編され、経営層がスーパーインテリジェンス開発への経営資源集中をシグナルしており、今後のAPIやサービス提供戦略が大規模言語モデルの高度化へシフトする可能性が高まっています。Web開発企業はMicrosoft AzureやCopilot APIの進化に注視し、既存AI統合実装の将来互換性を検討する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting": {
+    "category": 2,
+    "summary": "Google Homeアプリの最新更新により、Gemini AIアシスタントが自然言語コマンドの理解精度を向上させ、より直感的なスマートホーム制御が可能になりました。「海の色」といった比喩的な照明指定など、より複雑で自然な命令表現に対応するようになり、開発者はGemini APIとの連携時に拡張された自然言語処理能力を活用できるようになります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.figma.com/blog/introducing-make-kits-and-make-attachments/": {
+    "category": 3,
+    "summary": "Figma Makeで「Make kits」と「Make attachments」機能が追加され、実際のコンポーネント・データ・制約条件をコンテキストとして活用してプロトタイプ生成できるようになりました。これによりAIが設計システムやプロジェクト固有の要件を理解した上で、より正確で制御可能なUI生成が可能になります。",
+    "priority": "medium",
+    "cache_version": "2"
   }
 }
