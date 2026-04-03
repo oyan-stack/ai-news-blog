@@ -856,5 +856,83 @@
     "summary": "Figma Makeで「Make kits」と「Make attachments」機能が追加され、実際のコンポーネント・データ・制約条件をコンテキストとして活用してプロトタイプ生成できるようになりました。これによりAIが設計システムやプロジェクト固有の要件を理解した上で、より正確で制御可能なUI生成が可能になります。",
     "priority": "medium",
     "cache_version": "2"
+  },
+  "https://apfel.franzai.com": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://aedelon777.substack.com/p/i-did-the-math-on-sora-ai-video-is": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/": {
+    "category": 4,
+    "summary": "AnthropicがバイオテックスタートアップCoefficientBioを4億ドルで買収し、AI技術をバイオテック分野に統合することで、生成AI企業による垂直統合の動きが加速しています。Webエンジニア視点では、AnthropicのAPIやClaudeの機能拡張により、バイオ研究データ解析向けのLLM応用が今後増加する可能性があり、関連プロダクト開発時の統合ポイントに注視が必要です。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/": {
+    "category": 4,
+    "summary": "Anthropicが政治活動を強化し、AI政策に賛同する候補者を支援するPAC（政治活動委員会）を新設しました。これは中期選挙を控え、AI企業としての政策アジェンダ推進のための動きですが、Webエンジニアの実務には直接的な影響はありません。ただし今後のAI規制動向がAPI仕様やサービス提供条件に波及する可能性があるため、業界動向として注視する必要があります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/people-would-rather-have-an-amazon-warehouse-in-their-backyard-than-a-data-center/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/podcast/906548/best-apple-product-vergecast": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs": {
+    "category": 4,
+    "summary": "ユタ州がAIシステムに精神科薬の処方権を認可し、医師を介さない自動処方が可能になったことで、医療機関向けAIサービスの規制が急速に緩和される傾向が生まれています。Webエンジニアにとっては、医療AI APIやチャットボット実装時に法的責任の定義が曖昧なまま進む可能性があり、コンプライアンス対応やAPIの出力制限設計の重要性が一層高まります。",
+    "priority": "high",
+    "cache_version": "2"
   }
 }
