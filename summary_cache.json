@@ -934,5 +934,65 @@
     "summary": "ユタ州がAIシステムに精神科薬の処方権を認可し、医師を介さない自動処方が可能になったことで、医療機関向けAIサービスの規制が急速に緩和される傾向が生まれています。Webエンジニアにとっては、医療AI APIやチャットボット実装時に法的責任の定義が曖昧なまま進む可能性があり、コンプライアンス対応やAPIの出力制限設計の重要性が一層高まります。",
     "priority": "high",
     "cache_version": "2"
+  },
+  "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.com/borski/travel-hacking-toolkit": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/": {
+    "category": 4,
+    "summary": "AI企業が過度な評価額と実質的な利益生出能力の乖離による「サブプライムAI危機」に直面しており、多くのAIサービスの実用性と収益性に疑問が生じている。Webエンジニアにとっては、安易にAIツール・APIに依存するのではなく、実装前に実際の効果測定と費用対効果の精査が重要になる局面が来ている。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://gizmodo.com/group-pushing-age-verification-requirements-for-ai-turns-out-to-be-sneakily-backed-by-openai-2000741069": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/": {
+    "category": 2,
+    "summary": "AnthropicがClaude Codeの有料購読者に対し、OpenClawおよび他のサードパーティツール利用時に追加料金を徴収することを発表しました。これまで含まれていた機能が有料化されるため、開発ワークフローのコスト構造が変わり、外部ツール統合の利用判断をあらためて検討する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban": {
+    "category": 2,
+    "summary": "AnthropicがOpenClawなどのサードパーティツールでのClaude API利用に対し、4月4日より新料金体系を適用し、既存のサブスクリプション枠が使用できなくなるため、OpenClawユーザーは追加料金の負担か利用方法の変更を余儀なくされます。開発者はClaude公式APIの直接利用への移行やコスト最適化を検討する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
   }
 }
