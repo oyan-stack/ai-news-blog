@@ -994,5 +994,71 @@
     "summary": "AnthropicがOpenClawなどのサードパーティツールでのClaude API利用に対し、4月4日より新料金体系を適用し、既存のサブスクリプション枠が使用できなくなるため、OpenClawユーザーは追加料金の負担か利用方法の変更を余儀なくされます。開発者はClaude公式APIの直接利用への移行やコスト最適化を検討する必要があります。",
     "priority": "high",
     "cache_version": "2"
+  },
+  "https://twitter.com/i/status/2040577536136974444": {
+    "category": 4,
+    "summary": "AI企業による音声クローニング技術の無許可使用に対する法的問題が顕在化しており、ミュージシャンが著作権侵害で訴訟を提起しています。ウェブサービス開発時にユーザー生成音声コンテンツやAI音声合成機能を扱う場合、明確な利用許諾の取得と音声データの法的保護が実務上の必須課題となります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://lalitm.com/post/building-syntaqlite-ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://taggart-tech.com/reckoning/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://twitter.com/VladTheInflator/status/2039577001531768906": {
+    "category": 4,
+    "summary": "AI学習用にコピーされた音楽ファイルに対し、AIシステムが元の作曲家に著作権侵害を申し立てるという逆説的な事態が発生しており、AI生成コンテンツの著作権管理体制の欠陥を露呈させています。Webサービス開発者はユーザー生成コンテンツやAI学習データの出所検証とメタデータ管理を強化し、誤った著作権申し立てを防ぐシステムの実装が急務となっています。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
