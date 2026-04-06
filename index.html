@@ -70,16 +70,28 @@
 </head>
 <body>
   <h1>AI News for Web Engineers</h1>
-  <p class="meta-bar">最終更新: 2026-04-05 23:04 UTC &nbsp;·&nbsp; 31件</p>
+  <p class="meta-bar">最終更新: 2026-04-06 23:53 UTC &nbsp;·&nbsp; 30件</p>
   
+  <div class="weekly-summary">
+    <div class="weekly-title">今週のAIトレンド（2026年第14week）</div>
+    <ul class="weekly-list"><li>AIエージェントの企業導入が加速：SalesforceのSlackbot、AnthropicのCowork、GitHub Copilot CLIの/fleetなど、複数のプラットフォームでマルチエージェント機能が拡充され、エンタープライズ向けAIワークフロー自動化が実務的段階へ移行しています。</li><li>オンデバイス推論とオープンソースモデルの台頭：ブラウザ埋め込みAI（Gemma Gem）、オフライン音声入力、NousCoder-14Bなど、API依存を排除した軽量モデルの選択肢が増え、コスト削減とプライバシー保護が同時に実現可能になりました。</li><li>AI開発ツールの料金体系の急速な変動：Copilot CLIの機能拡張、GitHub Copilotのデータ利用ポリシー変更、Anthropicの追加料金制導入など、各社が価格戦略を調整中であり、開発チームは契約内容と費用構造を定期的に見直す必要があります。</li><li>クラウドインフラとAIの統合深化：Microsoft AzureとNVIDIAのパートナーシップ強化により、本番環境対応のスケーラブルなAI基盤が整備され、大規模エンタープライズ向けのAI導入障壁が低下しています。</li></ul>
+  </div>
   <h2>新ツール・サービス発表</h2><ul class="news-list">
       <li class="news-item">
         <div class="item-header">
-          <a href="https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/" target="_blank" rel="noopener">Microsoft takes on AI rivals with three new foundational models</a>
+          <a href="https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/" target="_blank" rel="noopener">Google quietly launched an AI dictation app that works offline</a>
           <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
         </div>
-        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月3日</span>
-        <p class="summary">Microsoftが音声認識、音声生成、画像生成に対応する3つの新しい基盤モデルをリリースしました。これらのマデルはAPI経由で利用可能になるため、Webアプリケーションに音声・画像処理機能を統合する際の選択肢が増え、マルチモーダル対応アプリの開発効率が向上します。</p>
+        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月7日</span>
+        <p class="summary">Googleがオフライン動作するAI音声入力アプリを静かにリリースし、Gemma AIモデルを活用してWhisper Flowなどの競合アプリに対抗しています。オフライン処理により、APIサーバーへの依存を排除でき、レイテンシー低減とプライバシー向上が期待でき、音声入力機能の実装選択肢が増える可能性があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://github.com/kessler/gemma-gem" target="_blank" rel="noopener">Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud</a>
+          <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
+        </div>
+        <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月6日</span>
+        <p class="summary">Google の Gemma 4 (2B) モデルを WebGPU で直接ブラウザに埋め込む Chrome 拡張機能で、API キーやクラウド通信なしにページ読み込み・スクリーンショット撮影・要素クリック・JavaScript 実行などのツール操作が可能な小型チャットオーバーレイを提供する。オンデバイス推論により、シンプルなページ質問やスクレイピング作業をエッジで完結させられるため、Web 自動化やページ分析の利用シーンで API 呼び出しコストを削減できる。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -97,6 +109,14 @@
         <span class="meta">VentureBeat AI &nbsp;·&nbsp; 2026年1月8日</span>
         <p class="summary">Nous Researchが開発したオープンソースコーディングモデル「NousCoder-14B」は、わずか4日間でNvidia B200 GPUを使用して学習され、より大規模なプロプライエタリモデルと同等以上の性能を実現しています。Webエンジニアは、このオープンソースモデルを自社環境で導入・カスタマイズ可能な選択肢として活用でき、高額なAPI費用の削減やプライベートデプロイメントが期待できます。</p>
       </li></ul><h2>アップデート・新モデル</h2><ul class="news-list">
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/" target="_blank" rel="noopener">GitHub Copilot CLI combines model families for a second opinion</a>
+          <span class="badge" style="background:#edf7ed;color:#2e7d32">アップデート・新モデル</span>
+        </div>
+        <span class="meta">GitHub Blog &nbsp;·&nbsp; 2026年4月7日</span>
+        <p class="summary">GitHub Copilot CLIが「Rubber Duck」機能を追加し、複数のモデルファミリーを組み合わせて異なる視点でのコード提案が可能になりました。これによりCLI上でコマンド生成やトラブルシューティング時に複数の意見を得られるようになり、より堅牢なコード実装が実現できます。</p>
+      </li>
       <li class="news-item">
         <div class="item-header">
           <a href="https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/" target="_blank" rel="noopener">Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage</a>
@@ -155,11 +175,11 @@
       </li></ul><h2>既存ツールへのAI機能追加</h2><ul class="news-list">
       <li class="news-item">
         <div class="item-header">
-          <a href="https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/" target="_blank" rel="noopener">Google now lets you direct avatars through prompts in its Vids app</a>
+          <a href="https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/" target="_blank" rel="noopener">How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others</a>
           <span class="badge" style="background:#fdf3e8;color:#b45309">既存ツールへのAI機能追加</span>
         </div>
-        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月3日</span>
-        <p class="summary">Googleの動画作成アプリ「Vids」にプロンプトベースのアバター操作機能が追加され、テキスト指示でアバターをカスタマイズ・操作できるようになります。これにより、動画制作の効率化とアバターの多様な表現が可能になり、Vids APIを利用する開発者は新たなアバター制御エンドポイントを活用して、プロンプト駆動の動画生成機能をアプリケーションに統合できます。</p>
+        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月6日</span>
+        <p class="summary">ChatGPTが Spotify、Canva、Figma、Expedia、DoorDash、Uber など複数の主要サービスと統合され、ChatGPT内から直接これらのアプリ機能を利用できるようになりました。Webエンジニアは既存サービスのAPIをChatGPTと連携させるための統合作業が増加し、ユーザー体験向上のため各プラットフォームの連携仕様を把握する必要があります。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -176,14 +196,6 @@
         </div>
         <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年3月24日</span>
         <p class="summary">ChatGPTが「Agentic Commerce Protocol」を導入し、商品検索・比較・マーチャント統合を実現するリッチな買い物体験を提供開始します。Webエンジニアは新プロトコルへの対応とAPI連携により、ChatGPT経由での商品情報配信・決済フローの実装が必要になります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/" target="_blank" rel="noopener">GitHub expands application security coverage with AI‑powered detections</a>
-          <span class="badge" style="background:#fdf3e8;color:#b45309">既存ツールへのAI機能追加</span>
-        </div>
-        <span class="meta">GitHub Blog &nbsp;·&nbsp; 2026年3月24日</span>
-        <p class="summary">GitHubのCode Securityに新たにAI駆動の脆弱性検出機能が追加され、CodeQLと組み合わせることで、これまで対応していなかったプログラミング言語やフレームワークの脆弱性検出が可能になりました。これにより、開発者は本番環境へのデプロイ前にセキュリティリスクをより広範に検出・修正できるため、CI/CDパイプラインでの脆弱性スキャンの精度が向上します。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -219,11 +231,27 @@
       </li></ul><h2>業界・規制ニュース</h2><ul class="news-list">
       <li class="news-item">
         <div class="item-header">
-          <a href="https://twitter.com/i/status/2040577536136974444" target="_blank" rel="noopener">Musician says AI company is cloning her music, filing claims against her</a>
+          <a href="https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/" target="_blank" rel="noopener">OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月7日</span>
+        <p class="summary">OpenAIが提唱する「AI経済ビジョン」では、AI利益への課税と公的富裕基金の創設により、AI導入による雇用喪失と不平等に対処する政策が検討されており、Webエンジニアにとっては今後のAI関連ツール・API提供にかかるコスト構造の変化と規制動向への注視が実務上重要になる可能性があります。この提案はAI企業の利益モデルに直結するため、OpenAIやその他AIプロバイダーのAPI料金体系や利用条件の見直しにつながる可能性があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://openai.com/index/industrial-policy-for-the-intelligence-age" target="_blank" rel="noopener">Industrial policy for the Intelligence Age</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月6日</span>
+        <p class="summary">AIが産業を変える時代において、人を中心とした産業政策が推進されており、機会拡大と繁栄の共有、レジリエントな制度構築を目指しています。Webエンジニアの実務面では、AIツールやAPIの活用環境が整備される一方で、規制枠組みの整備が進むため、企業のAI導入時には政策動向の把握と法令対応が重要になる可能性があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://twitter.com/unlimited_ls/status/2040577536136974444" target="_blank" rel="noopener">Musician says AI company is cloning her music, filing claims against her</a>
           <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
         </div>
         <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月6日</span>
-        <p class="summary">AI企業による音声クローニング技術の無許可使用に対する法的問題が顕在化しており、ミュージシャンが著作権侵害で訴訟を提起しています。ウェブサービス開発時にユーザー生成音声コンテンツやAI音声合成機能を扱う場合、明確な利用許諾の取得と音声データの法的保護が実務上の必須課題となります。</p>
+        <p class="summary">ミュージシャンがAI企業による音声クローニング技術を用いた著作権侵害で訴訟を起こしており、今後Webサービスにおいて音声・音楽生成AIを組み込む際には権利処理の厳格化やコンテンツの真正性検証機能の実装が必須となる可能性が高まっています。このような訴訟事例の増加に伴い、開発者はAPIプロバイダーの利用規約を確認し、生成AIの学習に使用されるコンテンツの出処確認やライセンス管理の体制構築が重要になるでしょう。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -251,14 +279,6 @@
       </li>
       <li class="news-item">
         <div class="item-header">
-          <a href="https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/" target="_blank" rel="noopener">Anthropic ramps up its political activities with a new PAC</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月4日</span>
-        <p class="summary">Anthropicが政治活動を強化し、AI政策に賛同する候補者を支援するPAC（政治活動委員会）を新設しました。これは中期選挙を控え、AI企業としての政策アジェンダ推進のための動きですが、Webエンジニアの実務には直接的な影響はありません。ただし今後のAI規制動向がAPI仕様やサービス提供条件に波及する可能性があるため、業界動向として注視する必要があります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
           <a href="https://openai.com/index/openai-acquires-tbpn" target="_blank" rel="noopener">OpenAI acquires TBPN</a>
           <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
         </div>
@@ -283,14 +303,6 @@
       </li>
       <li class="news-item">
         <div class="item-header">
-          <a href="https://openai.com/index/openai-to-acquire-astral" target="_blank" rel="noopener">OpenAI to acquire Astral</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年3月19日</span>
-        <p class="summary">OpenAIがPythonの開発ツール向けコード生成AIを強化するため、Astralを買収しました。この買収によりCodexの成長が加速し、Pythonエコシステム向けのAI支援開発ツールがより高度になることが期待されます。Webエンジニアは、Python関連のAI支援コーディング機能がより充実したツールやAPIの提供を今後見込めます。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
           <a href="https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/" target="_blank" rel="noopener">Announcing Copilot leadership update</a>
           <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
         </div>
@@ -299,27 +311,11 @@
       </li>
       <li class="news-item">
         <div class="item-header">
-          <a href="https://openai.com/index/japan-teen-safety-blueprint" target="_blank" rel="noopener">OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年3月17日</span>
-        <p class="summary">OpenAI Japanがティーン向けの安全対策「Japan Teen Safety Blueprint」を発表し、年齢確認の強化、保護者コントロール、生成AI利用時の健全性保障を導入します。Webサービス開発時には年齢層に応じたアクセス制限やペアレンタルコントロール機能の実装が必要になり、OpenAI APIを組み込むアプリケーション側でもこれらの要件への対応が求められる可能性があります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
           <a href="https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/" target="_blank" rel="noopener">Microsoft and OpenAI joint statement on continuing partnership</a>
           <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
         </div>
         <span class="meta">Microsoft Blog &nbsp;·&nbsp; 2026年2月27日</span>
         <p class="summary">MicrosoftとOpenAIが2019年から継続している戦略的パートナーシップについて、両社が相互信頼と技術統合を基盤とした長期的な協業を継続することを発表しました。Webエンジニアの実務面では、Azure OpenAI ServiceやCopilotなどのAPI・ツール統合が今後も強化される見込みであり、これらのプラットフォームへの継続的な投資が期待できます。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs" target="_blank" rel="noopener">Chatbots are now prescribing psychiatric drugs</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月3日</span>
-        <p class="summary">ユタ州がAIシステムに精神科薬の処方権を認可し、医師を介さない自動処方が可能になったことで、医療機関向けAIサービスの規制が急速に緩和される傾向が生まれています。Webエンジニアにとっては、医療AI APIやチャットボット実装時に法的責任の定義が曖昧なまま進む可能性があり、コンプライアンス対応やAPIの出力制限設計の重要性が一層高まります。</p>
       </li></ul>
 </body>
 </html>
