@@ -1174,5 +1174,143 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://www.anthropic.com/glasswing": {
+    "category": 4,
+    "summary": "AnthropicのProject Glasswingは、AI時代における重要なソフトウェアのセキュリティ強化を目的とした取り組みで、Claude Mythos Previewなどの新型モデルによるサイバーセキュリティ機能の向上が含まれています。Webエンジニアとしては、APIレベルでセキュリティ検査・脆弱性診断機能の統合が進む可能性があり、開発プロセスにAIベースのセキュリティチェックを組み込む選択肢が増えることが予想されます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://garymarcus.substack.com/p/the-back-story-behind-the-first-18": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.wsj.com/opinion/ai-is-a-threat-to-everything-the-american-people-hold-dear-a3286459": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.com/kitfunso/hippo-memory": {
+    "category": 1,
+    "summary": "AI エージェント向けの生物学的インスピレーションを受けたメモリシステム「Hippo」が公開されており、GitHub で利用可能です。このツールは AI エージェントの長期的な文脈保持と記憶管理を改善することで、実務的なエージェントアプリケーション開発の実装効率を向上させる可能性があります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.malwarebytes.com/blog/ai/2026/04/wikipedias-ai-agent-row-likely-just-the-beginning-of-the-bot-ocalypse": {
+    "category": 4,
+    "summary": "Wikipediaが自動編集するAIエージェントの利用を巡って議論が勃発しており、ユーザー生成コンテンツプラットフォームではAIボットによる大量編集と品質管理の課題が今後深刻化することが予想されています。Web開発者は、APIレート制限の強化やボット検出・フィルタリング機構の実装を検討する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.danvk.org/2026/03/08/oldnyc-updates.html": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/": {
+    "category": 4,
+    "summary": "Uberが機械学習推論などのライドシェアリング機能をAmazonのカスタムAIチップ（Trainium/Inferentia）上で実行するようAWSの契約を拡大しており、これによりインフラコスト削減とAWSへの依存深化が進んでいます。Webサービスを運営する企業にとって、クラウドプロバイダーのカスタムチップ採用がコスト最適化の実務的選択肢となっていることを示唆しています。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/": {
+    "category": 4,
+    "summary": "AnthropicがGoogleおよびBroadcomとの計算リソース供給契約を拡大しており、年間売上が300億ドルに達する急速な成長に対応しています。これはクラウドインフラ依存度が高まることを意味し、API利用者は今後のスケーラビリティ向上とレイテンシ改善に期待できる一方で、価格体系の変更やリソース確保競争の激化に注意が必要です。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/": {
+    "category": 3,
+    "summary": "Google Mapsに新たにGeminiのAI機能が統合され、ユーザーが撮影した写真や動画に対して自動的にキャプションを生成できるようになりました。Webエンジニアとしては、Maps APIを利用したアプリケーション開発時にこのAI生成キャプション機能をコンテンツ投稿フローに組み込むことで、ユーザーの投稿手続きを簡素化し、ローカル情報の質と量を向上させることが可能になります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/4-days-left-to-save-close-to-500-on-techcrunch-disrupt-2026-passes/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts": {
+    "category": 3,
+    "summary": "Spotifyが既存の「Prompted Playlists」機能をポッドキャストに対応させ、プレミアムユーザーがAIを活用して新番組を発見しやすくなりました。従来は音楽のみだった機能が拡張されたことで、ディスカバリー体験がポッドキャスト領域にも広がり、プラットフォームの利用時間増加を見込めます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity": {
+    "category": 1,
+    "summary": "Anthropicが主要OS・Webブラウザのセキュリティ脆弱性を自動検出するAIモデル「Project Glasswing」を発表し、NvidiaやGoogle、AWS、Apple、Microsoftなどと連携して企業のシステム脆弱性診断を自動化する取り組みをスタートしました。このAIモデルは人手をほぼ必要としない脆弱性検出ツールとして、大企業や政府機関でのセキュリティ監査プロセスの効率化に活用される見込みです。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/908119/suno-sony-universal-music-ai-disagreement": {
+    "category": 4,
+    "summary": "AI音楽生成サービスのSunoが、ユニバーサルミュージックグループとソニーミュージックエンターテインメントとのライセンス交渉で、生成した楽曲の共有可否をめぐって対立しており、合意に至っていない状況です。Webエンジニアの観点では、今後のSuno APIやプラットフォームの楽曲共有機能・配信機能の制限や仕様変更、サードパーティー連携の規制強化が予想されます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla": {
+    "category": 4,
+    "summary": "Intelがテキサス州オースティンのイーロン・マスクのTerafab AI チップ工場建設を支援することになり、SpaceXとTeslaへのAIチップ供給体制が強化される見込みです。Webエンジニアにとっては、今後これらの企業が提供するAI APIやサービスの安定性向上と新しいAI処理能力の活用機会が期待できます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update": {
+    "category": 2,
+    "summary": "Googleは危機的な状況下にある利用者を迅速にメンタルヘルスリソースに誘導するようGeminiを更新し、AI製品による害を巡る訴訟への対応を進めています。Webサービス提供者は、生命に関わる相談検出時の適切なリソース提示機能の実装やAPIの堅牢性向上が今後より重要な実装要件となる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
   }
 }
