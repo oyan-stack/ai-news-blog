@@ -1588,5 +1588,185 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model": {
+    "category": 4,
+    "summary": "米国の規制当局がAnthropicの最新AIモデルがもたらすサイバーセキュリティリスクについて銀行幹部を召喚し、金融機関への脅威について協議を実施している。金融サービス業界ではAIモデルの導入時にセキュリティ評価とコンプライアンス確認が強化される可能性があり、AIベースのシステム統合の際には規制要件への対応が必須となる見通し。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/": {
+    "category": 4,
+    "summary": "OpenAIはイリノイ州の法案を支持しており、同州の法案はAIラボの責任を制限する内容となっています。これが可決されればAIサービスプロバイダーの法的リスクが軽減され、APIの提供・運用が容易になる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.nature.com/articles/d41586-026-01100-y": {
+    "category": 4,
+    "summary": "AI生成コンテンツの信頼性検証の重要性が指摘される研究で、架空の疾患情報をAIが拡散させる実験結果から、医療・健康関連情報提供APIやWebサービスではAI出力の事実確認機構の実装が実務上の必須課題となっています。Webエンジニアは特にヘルスケア関連プロダクトで、外部AIモデルへの過度な依存を避け、信頼性の高い情報ソース連携やファクトチェック機能の組み込みが求められます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theguardian.com/us-news/2026/apr/09/pentagon-ai-xai-emil-michael": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/search-and-deep-research": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/working-with-files": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/custom-gpts": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/data-analysis": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/prompting": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/research": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/sales": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/skills": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/applications-of-ai": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/brainstorming": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/writing": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/getting-started": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/finance": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/financial-services": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/what-is-ai": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/": {
+    "category": 4,
+    "summary": "AnthropicがOpenClawの作成者をClaudeへのアクセスから一時的に禁止しました。これは先週のClaude API価格変更後に実施されたもので、OpenClaw利用者への価格改定が引き金となっています。Webエンジニアとしては、Claude APIを活用したサードパーティツール利用時に、Anthropicの利用規約違反による予期しないアクセス制限リスクを考慮する必要があります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/": {
+    "category": 4,
+    "summary": "OpenAIがストーキング被害者からの警告を複数回無視し、ChatGPTユーザーの危険な行動（大量被害を示唆するフラグも含む）を放置していたという訴訟が提起されました。この事例は、AIサービスプロバイダーが有害ユーザーの検知・対応に関する法的責任を問われる可能性を示唆しており、今後のAIサービス提供企業では利用者報告メカニズムの強化やコンテンツモデレーション体制の整備が急務となることが考えられます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/909948/explosive-media-lego-iran-war-trump-netanyahu": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/news/909640/microsoft-removing-copilot-windows-11-buttons": {
+    "category": 2,
+    "summary": "MicrosoftがWindows 11アプリからCopilotボタンを削除し始めており、NotepadではCopilotボタンが「writing tools」メニューに統合されるなど、UI/UXの再設計が進行中です。これはアプリの操作フローに影響を与える可能性があり、Copilot APIを統合しているアプリ開発者は代替のUI実装パターンを検討する必要があります。",
+    "priority": "medium",
+    "cache_version": "2"
   }
 }
