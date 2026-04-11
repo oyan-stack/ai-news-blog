@@ -1768,5 +1768,89 @@
     "summary": "MicrosoftがWindows 11アプリからCopilotボタンを削除し始めており、NotepadではCopilotボタンが「writing tools」メニューに統合されるなど、UI/UXの再設計が進行中です。これはアプリの操作フローに影響を与える可能性があり、Copilot APIを統合しているアプリ開発者は代替のUI実装パターンを検討する必要があります。",
     "priority": "medium",
     "cache_version": "2"
+  },
+  "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.hormuz-havoc.com/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://twill.ai": {
+    "category": 1,
+    "summary": "Twill.aiは、Claude CodeやCodexなどのコーディングCLIをクラウドサンドボックスで実行し、Slack/GitHub/Linear/CLIから指示を受けてプルリクエストやコードレビューを自動生成するエージェントサービスです。必要に応じてユーザーに確認を求めることで、開発者の制御下で保つまま開発作業を委譲できるツールとなります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.quantamagazine.org/why-do-we-tell-ourselves-scary-stories-about-ai-20260410/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/healthcare": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/marketing": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/operations": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/image-generation": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/axios-developer-tool-compromise": {
+    "category": 4,
+    "summary": "OpenAIは、Axiosライブラリのサプライチェーン攻撃に対応してmacOSのコード署名証明書をローテーション実施し、アプリケーションを更新しました。ユーザーデータへの影響はないとのことですが、開発者は依存ライブラリのセキュリティ監視とアプリの更新確認が必要になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/personalization": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
