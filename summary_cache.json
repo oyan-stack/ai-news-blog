@@ -1852,5 +1852,89 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://europe.mistral.ai/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://nerdy.dev/why-ai-sucks-at-front-end": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.bbc.com/news/articles/cjd8jrd1vnyo": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/projects": {
+    "category": 3,
+    "summary": "ChatGPTの新機能「Projects」により、チャット履歴、ファイル、カスタム指示を一つのプロジェクト内で整理・管理できるようになり、複数案件の並行処理やチーム協働が効率化されます。Webエンジニアにとっては、プロジェクト単位でのAIアシスタント運用が可能になることで、開発ドキュメントやコード管理の生産性向上が期待できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/responsible-and-safe-use": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/customer-success": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/academy/managers": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
