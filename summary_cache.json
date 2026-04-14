@@ -1936,5 +1936,119 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://amd-gaia.ai/docs": {
+    "category": 1,
+    "summary": "AMDがローカル環境で動作するAIエージェント構築フレームワーク「AMD GAIA」を発表し、開発者はGPUを活用してオンプレミスでAIモデルを実行できるようになりました。このツールにより、クラウドAPI依存を減らしながら、プライバシーとレイテンシーを改善したAIアプリケーション開発が可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://status.claude.com/incidents/6jd2m42f8mld": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/910990/meta-ceo-mark-zuckerberg-ai-clone": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://thenextwavefutures.wordpress.com/2026/04/07/ai-end-digital-wave-technology-innovation-perez/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://arxiv.org/abs/2603.20617": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.com/imbue-ai/bouncer": {
+    "category": 1,
+    "summary": "Imbue AIが開発した「Bouncer」は、AIを活用してX（旧Twitter）フィードから暗号資産や怒りに満ちた政治関連投稿など特定のカテゴリをフィルタリングするツールで、GitHubで公開されています。ユーザーはこのツールを使用することで、フィード内容を自動的にカスタマイズでき、不要なコンテンツを効率的に除外できます。",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/cloudflare-openai-agent-cloud": {
+    "category": 3,
+    "summary": "Cloudflareが「Agent Cloud」にOpenAIの最新モデル（GPT-5.4とCodex）を統合し、エンタープライズ向けにAIエージェントの構築・デプロイ・スケーリングを容易にしました。Webエンジニアは既存のCloudflareインフラ上でOpenAI APIを直接活用でき、セキュリティと実行速度を兼ね備えたエージェントワークフローの実装が可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/911267/ai-influencers-coachella": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses": {
+    "category": 2,
+    "summary": "MicrosoftはCopilotに自動でタスク実行するOpenClaw型のAIボット機能の統合をテスト中で、Microsoft 365 Copilotが24時間自律的にユーザーの代わりにタスクを完了できる仕様を目指しています。これにより開発者向けのAPI連携やワークフロー自動化の能力が大幅に拡張される見込みです。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/910890/openai-sam-altman-second-home-attack-shooting": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
