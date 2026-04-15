@@ -2050,5 +2050,131 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/": {
+    "category": 3,
+    "summary": "Chromeに「Skills」機能が追加され、よく使うAIプロンプトをワンクリックツール化できるようになりました。これにより、開発者は繰り返しのAIプロンプト実行を自動化でき、ブラウザ拡張機能開発やWebアプリケーションの業務効率が向上します。Google AIのAPIと統合されることで、カスタムプロンプト管理とツール化が標準機能として実装可能になります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://meiert.com/blog/ai-ethics-and-safety/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://smarterarticles.co.uk/ai-exposed-the-lie-schools-never-taught-critical-thinking": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.sebastian-jais.de/blog/two-months-alma-experiment": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.com/kontext-dev/kontext-cli": {
+    "category": 1,
+    "summary": "AI coding agentsがGitHubやStripeなどの外部サービスにアクセスする際、長寿命のAPIキーを環境変数やチャットに直接貼り付ける危険な運用を改善するため、Kontext CLIはGo製のクレデンシャル仲介ツールとして開発されました。このツールはAPIキーの一元管理に加え、どの開発者がどのagentを起動し何にアクセスしたかを追跡できるアクセス系統の可視化機能を提供し、セキュリティリスク低減と監査ログの確保を実現します。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.tobru.ch/an-ai-vibe-coding-horror-story/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techtrenches.dev/p/the-human-cost-of-10x-how-ai-is-physically": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/": {
+    "category": 3,
+    "summary": "GitHubが無料の「Code Security Risk Assessment」機能を追加し、ワンクリックで組織全体のコード脆弱性を診断できるようになりました。既存のGitHubリポジトリ上で追加コスト無しにセキュリティ診断が可能になるため、開発チームのセキュリティ監査プロセスが大幅に簡素化されます。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/scaling-trusted-access-for-cyber-defense": {
+    "category": 2,
+    "summary": "OpenAIが信頼できるサイバーセキュリティ専門家向けに「GPT-5.4-Cyber」を導入し、AI駆動のサイバー防御機能を強化するTrusted Accessプログラムを拡大しました。このモデルはセキュリティ研究者が脆弱性検出や防御戦略の開発に活用でき、適切なガードレールの下で高度なサイバー分析APIにアクセス可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/": {
+    "category": 3,
+    "summary": "GoogleがChromeに「Skills」機能を追加し、ユーザーがGeminiで作成したAIプロンプトをWebサイト間で保存・再利用できるようになります。この機能はGeminiのブラウザ統合に基づいており、Webエンジニアは複数のサイトで共通するAI処理をスキルとして定義することで、ユーザーの作業効率化を実装できるようになります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/14/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/14/how-vibe-coding-app-anything-is-rebuilding-after-getting-booted-from-the-app-store-twice/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/": {
+    "category": 4,
+    "summary": "OpenAIが個人向けAI家計管理スタートアップのHiroを買収し、ChatGPTに財務計画機能を統合する動きを示しています。これにより、ChatGPT APIを利用するWebアプリケーションで金融アドバイスや資産管理関連の機能提供が可能になる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/911778/ai-violence-sam-altman-home": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch": {
+    "category": 3,
+    "summary": "GoogleはChromeに「Skills」機能を追加し、GeminiのAIプロンプトをリアブルな定型処理として保存・再利用できるようにしました。これにより、複数のWebページで同じAIタスク（テキスト抽出、データ変換など）を繰り返し実行でき、開発者はChrome拡張機能やWebアプリケーションでAI自動化ワークフローを構築できるようになります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/911579/google-synthid-ai-watermarking-system-reverse-engineered": {
+    "category": 4,
+    "summary": "Googleの画像生成AI透かしシステム「SynthID」がリバースエンジニアリングされたと主張する開発者がGitHubで検証コードを公開し、生成画像からの透かし除去や他の画像への透かし挿入が可能だと報告していますが、Google側は否定しています。この問題が事実であれば、AI生成物の真正性検証機能の信頼性が低下し、著作権侵害や詐欺対策の実装方針に再検討が求められる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
   }
 }
