@@ -2584,5 +2584,119 @@
     "summary": "Canvaが「AI 2.0」アップデートをリリースし、プロンプトベースの編集機能を導入することで、テキスト指示のみでデザイン作成・編集が可能になりました。このアップデートにより、デザイナーだけでなく非技術者でも効率的にコンテンツ生成できるようになり、Web制作ワークフローの自動化が加速するでしょう。",
     "priority": "high",
     "cache_version": "2"
+  },
+  "https://isitagentready.com": {
+    "category": 1,
+    "summary": "Webサイトが自動化エージェント対応の準備度を診断できる新ツール「Is It Agent Ready?」が登場し、構造化データやAPI設計などの実装状況をスキャンして改善提案を提供します。AIエージェント時代に向けたサイト最適化の必要性が高まる中、このツールはWebエンジニアがマークアップやメタデータ、API互換性などを事前チェックする実務的な活用が期待できます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.openculture.com/2026/04/how-george-orwell-predicted-the-rise-of-ai-slop.html": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://tomtunguz.com/ai-compute-crisis-2026/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.engadget.com/ai/theres-yet-another-study-about-how-bad-ai-is-for-our-brains-183418494.html": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/": {
+    "category": 4,
+    "summary": "OpenAIがKevin WeilとBill Peeblesの離職に加え、Sora廃止と科学チームの解散を発表し、エンタープライズAI中心へのシフトを強化しています。Webエンジニアにとっては動画生成APIの廃止など消費者向けサービス縮小が実装計画に影響するため、企業向けAPIの拡充動向を注視する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/": {
+    "category": 4,
+    "summary": "OpenAIが金融アプリやメディア企業を買収するなど積極的なM&Aを進める一方、Anthropicは強力すぎるため公開できないというモデルを発表するなど、AI企業の戦略分化が進んでいます。AI業界の内部者と外部者の間で技術格差と認識ギャップが広がり、実務レベルでのAPI・ツール選択の判断基準が複雑化しています。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/": {
+    "category": 1,
+    "summary": "AnthropicがClaude Designを発表し、デザイン経験がない起業家やプロダクトマネージャーが迅速にビジュアル資料を生成できるようになりました。Webエンジニアの実務では、プロトタイプやモックアップの作成工程が効率化され、デザイナーとの協業プロセスが変わる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview": {
+    "category": 1,
+    "summary": "Anthropicが政府向けセキュリティ特化モデル「Claude Mythos Preview」を発表し、トランプ政権との関係改善を図っています。このモデルはサイバーセキュリティ領域に特化することで、政府機関での採用可能性を高め、企業のコンプライアンスやセキュリティ監査業務に活用できる見込みです。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/podcast/913792/ai-divide-sam-altman-vergecast": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
