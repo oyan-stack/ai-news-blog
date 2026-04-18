@@ -2698,5 +2698,47 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://spectrum.ieee.org/state-of-ai-index-2026": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/": {
+    "category": 4,
+    "summary": "AI チップスタートアップの Cerebras が IPO を申請し、AWS のデータセンターでの Cerebras チップ採用と OpenAI との 10 億ドル超の契約を発表しています。これにより AWS 経由で Cerebras の高性能 AI チップへのアクセスが拡大し、大規模言語モデル開発における計算リソース選択肢が増える可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/": {
+    "category": 4,
+    "summary": "Anthropicはペンタゴンからサプライチェーンリスク指定を受けていながらも、トランプ政権の高官との対話を継続しており、両者の関係が改善の兆しを見せています。Webエンジニアにとっての直接的な実務影響は現時点では限定的ですが、米国の規制動向によってはClaudeなどのAI APIの利用条件やアクセス制限が今後変わる可能性があるため注視が必要です。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
