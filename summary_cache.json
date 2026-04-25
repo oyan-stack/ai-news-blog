@@ -3544,5 +3544,59 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://victortaelin.github.io/lambench/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://alash3al.github.io/stash?_v01": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/": {
+    "category": 1,
+    "summary": "Anthropicが買い手と売り手の両方をAIエージェントで構成した実験的マーケットプレイスを構築し、実際の商品と金銭でのトランザクションを実現させました。これはエージェント間での自律的な商取引を可能にする新しいAPIやフレームワークの実装可能性を示唆しており、Webエンジニアは将来的にAIエージェント間での決済・契約処理機能を組み込むことが求められる可能性があります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/": {
+    "category": 4,
+    "summary": "メイン州知事がデータセンター新設の州全域モラトリアム法案を拒否し、2027年11月までの建設凍結が実現しませんでした。これにより米国でのデータセンター展開規制は強化されず、クラウドインフラ企業やWeb開発者への直接的な建設制限は回避されましたが、今後の州レベル規制動向は引き続き注視が必要です。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/": {
+    "category": 4,
+    "summary": "カナダのAI企業Cohereがドイツの企業向けAI企業Aleph Alphaを買収し、欧州企業向けの主権的AI選択肢を提供する戦略を進めており、Webエンジニアは米国企業によらないLLMやAPIオプションの増加に対応する必要が出てきます。この統合により、EUの規制要件に準拠したAIサービスやAPIの提供が強化される見込みです。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
   }
 }
