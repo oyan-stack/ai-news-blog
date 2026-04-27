@@ -3640,5 +3640,167 @@
     "summary": "",
     "priority": "low",
     "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine": {
+    "category": 3,
+    "summary": "Canvaが「Magic Layers」というAI機能で、デザイン内の「Palestine」というテキストを自動的に別の単語に置き換えてしまう問題が発生し、謝罪を発表しました。このAI統合ツールの予期しない動作は、既存デザインプラットフォームへのAI機能追加時に、テキスト処理ロジックやフィルタリングの設計が実務に大きな影響を与える可能性を示唆しています。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/": {
+    "category": 4,
+    "summary": "フランスのMistralが140億ドルの企業価値に達し、米国AI企業に対抗する独立系プレイヤーとして台頭しています。オープンソースモデルの提供やAPI戦略により、開発者が米国企業以外の選択肢を持つことが可能になり、Web開発・LLM統合の多様化が進む可能性があります。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://app.oravys.com/blog/mercor-breach-2026": {
+    "category": 4,
+    "summary": "Mercorのプラットフォームから4万人のAIコントラクターの音声サンプル4TBが流出し、AI音声モデル開発における個人データ保護とセキュリティの脆弱性が露呈しました。音声データを扱うAI開発企業やAPIプロバイダーは、ユーザーデータの暗号化やアクセス制御の強化などセキュリティ対策の見直しが急務となります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://cjleo.com/blog/moleskine-ai-lord-of-the-rings-collection-can-only-mock/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.axios.com/2026/04/26/ai-cost-human-workers": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.com/sachitrafa/YourMemory": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/": {
+    "category": 2,
+    "summary": "GitHub Copilotが6月1日より従量課金制（GitHub AI Credits）に移行するため、既存の定額プラン利用者は使用量に応じた課金体系への変更を余儀なくされます。開発チームはコスト管理のため、Copilot利用状況の監視とAPIの最適化が必須となります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/openai-available-at-fedramp-moderate": {
+    "category": 2,
+    "summary": "OpenAIがFedRAMP Moderate認可を取得し、ChatGPT EnterpriseおよびOpenAI APIが米国連邦機関で利用可能になりました。これにより、政府機関はセキュリティ要件を満たしながらOpenAIのAPIを実装できるようになり、公的部門向けのAI統合が実現可能になります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/next-phase-of-microsoft-partnership": {
+    "category": 4,
+    "summary": "MicrosoftとOpenAIが提携契約を改定し、パートナーシップを簡潔化・長期化させることで、AI技術のスケーラブルな開発を加速させます。Webエンジニアにとっては、Azure OpenAI ServiceやAPI提供の安定性向上が期待でき、大規模AI機能の統合実装がより計画的に進められるようになります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/open-source-codex-orchestration-symphony": {
+    "category": 1,
+    "summary": "Symphony は GitHub Issues などの issue tracker をベースに AI エージェントを常時稼働させる仕組みを実現するオープンソース仕様で、エンジニアのコンテキストスイッチングを減らし生産性向上に役立つ。開発チームは既存のワークフロー・ツールへの統合が容易になり、Codex 連携による自動化タスク処理が可能になる。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/choco": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://openai.com/index/our-principles": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/": {
+    "category": 4,
+    "summary": "OpenAIがMicrosoftとの契約を見直し、AWSでの製品販売が可能になりました。Webエンジニアにとって、OpenAIのAPI利用時にAWSとMicrosoftの両クラウドを自由に選択できるようになることで、コスト最適化やベンダーロックイン回避が実現します。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/": {
+    "category": 4,
+    "summary": "中国がMetaによる20億ドルのManus買収を調査後に取り消すよう命じたもので、AI エージェント開発を推進するZuckerbergの戦略に影響を与えます。Webサービス企業が中国市場でのAI関連技術投資を進める際は、規制当局の承認プロセスを事前に確認する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features": {
+    "category": 3,
+    "summary": "Canonical（Ubuntu開発元）がUbuntu Linuxへの段階的なAI機能統合を発表し、次年度にかけてLinuxディストリビューションにAI機能を追加予定です。これにより、Webエンジニアが利用するLinux環境でのAI開発・運用ツール統合が進むことが期待されます。",
+    "priority": "medium",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter": {
+    "category": 4,
+    "summary": "Google従業員600名以上がCEOに対して、国防総省による機密軍事目的でのAIモデル利用をブロックするよう要求する公開書簡に署名しました。DeepMindを含む経営幹部らも参加しており、今後Google AIの軍事利用ポリシーが厳格化される可能性があるため、防衛関連プロジェクトでのGoogle API活用を検討している企業は方針確認が必要になる見込みです。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract": {
+    "category": 4,
+    "summary": "MicrosoftとOpenAIが長年の協力関係で重視していたAGI（汎用人工知能）達成時の条項が廃止され、パートナーシップ内容が大きく変更されました。Microsoftはクラウドパートナーの地位を保持しますが、今後のOpenAI製品やAPIの優先提供などの契約条件が見直されている状況であり、両社の関係が実質的に再構成される重要な転機となっています。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit": {
+    "category": 4,
+    "summary": "Elon MuskとSam Altmanの間でOpenAIの経営方針をめぐる裁判が2024年4月27日に開始され、MuskはOpenAIが非営利使命を放棄したとして訴えています。この裁判の結果によってはOpenAIのAPI仕様やサービス利用規約に変更が生じる可能性があり、Webエンジニアは同社のAPI依存度の見直しを検討する必要があります。",
+    "priority": "high",
+    "cache_version": "2"
+  },
+  "https://www.theverge.com/transportation/918411/gm-ai-car-design-nissan-neural-concept": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/": {
+    "category": 0,
+    "summary": "",
+    "priority": "low",
+    "cache_version": "2"
+  },
+  "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/": {
+    "category": 4,
+    "summary": "MicrosoftとOpenAIの提携が見直され、より柔軟で予測可能な長期的な協力体制へと進化し、AIの利益をより広く顧客に届けることが目指されています。これにより開発者向けのAPIやサービス提供の安定性が向上し、Azure OpenAI ServiceなどのMicrosoft統合サービスの活用がより計画しやすくなる可能性があります。",
+    "priority": "high",
+    "cache_version": "2"
   }
 }

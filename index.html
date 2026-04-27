@@ -70,9 +70,21 @@
 </head>
 <body>
   <h1>AI News for Web Engineers</h1>
-  <p class="meta-bar">最終更新: 2026-04-26 22:25 UTC &nbsp;·&nbsp; 29件</p>
+  <p class="meta-bar">最終更新: 2026-04-27 22:39 UTC &nbsp;·&nbsp; 31件</p>
   
+  <div class="weekly-summary">
+    <div class="weekly-title">今週のAIトレンド（2026年第17week）</div>
+    <ul class="weekly-list"><li>エンタープライズAIエージェントが実装段階に移行：Salesforce SlackbotやMicrosoft Foundryなど、企業データ統合と自動化ワークフローを備えたフル機能のAIエージェントがプロダクション環境で本格稼働し始めており、Webエンジニアはバックエンド設計とAPI連携の実装スキルがより重要になります。</li><li>オープンソースコーディングモデルの台頭で、AIツール導入の選択肢が拡大：NousCoder-14Bなどのオープンソースモデルが大規模プロプライエタリモデルと同等性能を実現し、自社環境でのカスタマイズやプライベートデプロイが現実的になったため、API費用削減とセキュリティ強化が可能になります。</li><li>AI開発ツールの課金体系が従量制へシフト：GitHub Copilotの従量課金化とOpenAIのFedRAMP認可など、AI利用環境が多様化・実務化する中で、開発チームはコスト最適化と利用状況の監視が必須になります。</li><li>ノーコード・ローコードでのAI自動化が民主化：CoworkやSymphonyなどのツールにより、プログラミング知識がないユーザーもファイル操作やワークフロー自動化が可能になり、Webエンジニアは自動化基盤の設計・統合面での役割がシフトしていきます。</li><li>AIエージェント間取引など、次世代ビジネスロジック実装への準備が必要：Anthropicのマーケットプレイス実験は、将来的にエージェント間の決済・契約処理機能の組み込みが求められる可能性を示唆しており、Webエンジニアは新しいAPI設計パターンの習得が重要になります。</li></ul>
+  </div>
   <h2>新ツール・サービス発表</h2><ul class="news-list">
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://openai.com/index/open-source-codex-orchestration-symphony" target="_blank" rel="noopener">An open-source spec for orchestration: Symphony</a>
+          <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
+        </div>
+        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">Symphony は GitHub Issues などの issue tracker をベースに AI エージェントを常時稼働させる仕組みを実現するオープンソース仕様で、エンジニアのコンテキストスイッチングを減らし生産性向上に役立つ。開発チームは既存のワークフロー・ツールへの統合が容易になり、Codex 連携による自動化タスク処理が可能になる。</p>
+      </li>
       <li class="news-item">
         <div class="item-header">
           <a href="https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/" target="_blank" rel="noopener">Anthropic created a test marketplace for agent-on-agent commerce</a>
@@ -80,38 +92,6 @@
         </div>
         <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月26日</span>
         <p class="summary">Anthropicが買い手と売り手の両方をAIエージェントで構成した実験的マーケットプレイスを構築し、実際の商品と金銭でのトランザクションを実現させました。これはエージェント間での自律的な商取引を可能にする新しいAPIやフレームワークの実装可能性を示唆しており、Webエンジニアは将来的にAIエージェント間での決済・契約処理機能を組み込むことが求められる可能性があります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/" target="_blank" rel="noopener">Nothing introduces an AI-powered dictation tool</a>
-          <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
-        </div>
-        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月24日</span>
-        <p class="summary">Nothingがデバイス上で動作するAI音声入力ツールをリリースし、100言語以上に対応しています。オンデバイス処理により、クラウド送信なしで音声認識が可能になり、プライバシーとレイテンシの面で改善が期待できます。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://atomicapp.ai/" target="_blank" rel="noopener">Show HN: Atomic – Local-first, AI-augmented personal knowledge base</a>
-          <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
-        </div>
-        <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月24日</span>
-        <p class="summary">Atomicは、ローカルファースト設計でAIが統合された個人向けナレッジベースツールで、ユーザーのデータをデバイス上に保持しながらAI機能を活用できるのが特徴です。Webエンジニアにとっては、プライバシーを重視したローカルストレージとAI処理の組み合わせアーキテクチャが、今後のパーソナルツール開発における実装パターンとして参考になります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://openai.com/index/introducing-workspace-agents-in-chatgpt" target="_blank" rel="noopener">Introducing workspace agents in ChatGPT</a>
-          <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
-        </div>
-        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月22日</span>
-        <p class="summary">ChatGPTの新機能「Workspace agents」はCodex技術を活用した自動化エージェントで、クラウド上でチーム業務を自動実行し、複数ツール間のワークフロー統合を安全にスケーリングできます。Webエンジニアは既存システムとの連携やAPI統合を通じて、定型業務の自動化や業務効率化の実装が可能になります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://openai.com/index/introducing-openai-privacy-filter" target="_blank" rel="noopener">Introducing OpenAI Privacy Filter</a>
-          <span class="badge" style="background:#e8f4fd;color:#1a6bbf">新ツール・サービス発表</span>
-        </div>
-        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月22日</span>
-        <p class="summary">OpenAIが個人識別情報（PII）を高精度で検出・マスキングするオープンウェイトモデル「OpenAI Privacy Filter」をリリースしました。このツールにより、開発者はユーザーデータを保護しながらテキスト処理を行え、GDPR対応やログ管理の自動化が実装しやすくなります。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -129,6 +109,22 @@
         <span class="meta">VentureBeat AI &nbsp;·&nbsp; 2026年1月8日</span>
         <p class="summary">Nous Researchが開発したオープンソースコーディングモデル「NousCoder-14B」は、わずか4日間でNvidia B200 GPUを使用して学習され、より大規模なプロプライエタリモデルと同等以上の性能を実現しています。Webエンジニアは、このオープンソースモデルを自社環境で導入・カスタマイズ可能な選択肢として活用でき、高額なAPI費用の削減やプライベートデプロイメントが期待できます。</p>
       </li></ul><h2>アップデート・新モデル</h2><ul class="news-list">
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" target="_blank" rel="noopener">GitHub Copilot is moving to usage-based billing</a>
+          <span class="badge" style="background:#edf7ed;color:#2e7d32">アップデート・新モデル</span>
+        </div>
+        <span class="meta">GitHub Blog &nbsp;·&nbsp; 2026年4月28日</span>
+        <p class="summary">GitHub Copilotが6月1日より従量課金制（GitHub AI Credits）に移行するため、既存の定額プラン利用者は使用量に応じた課金体系への変更を余儀なくされます。開発チームはコスト管理のため、Copilot利用状況の監視とAPIの最適化が必須となります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://openai.com/index/openai-available-at-fedramp-moderate" target="_blank" rel="noopener">OpenAI available at FedRAMP Moderate</a>
+          <span class="badge" style="background:#edf7ed;color:#2e7d32">アップデート・新モデル</span>
+        </div>
+        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">OpenAIがFedRAMP Moderate認可を取得し、ChatGPT EnterpriseおよびOpenAI APIが米国連邦機関で利用可能になりました。これにより、政府機関はセキュリティ要件を満たしながらOpenAIのAPIを実装できるようになり、公的部門向けのAI統合が実現可能になります。</p>
+      </li>
       <li class="news-item">
         <div class="item-header">
           <a href="https://openai.com/index/introducing-gpt-5-5" target="_blank" rel="noopener">Introducing GPT-5.5</a>
@@ -160,30 +156,14 @@
         </div>
         <span class="meta">VentureBeat AI &nbsp;·&nbsp; 2026年1月13日</span>
         <p class="summary">Salesforceが再構築したSlackbot AIエージェントを正式リリースし、単なる通知ツールから企業データ検索、ドキュメント作成、従業員の代わりに行動可能なフル機能のAIエージェントに進化させました。これにより、Slack APIを利用した自動化ワークフローの拡張やエンタープライズデータ統合の新たな実装パターンが可能になります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt" target="_blank" rel="noopener">OpenAI says its new GPT-5.5 model is more efficient and better at coding</a>
-          <span class="badge" style="background:#edf7ed;color:#2e7d32">アップデート・新モデル</span>
-        </div>
-        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月24日</span>
-        <p class="summary">OpenAIが新モデルGPT-5.5をリリースしました。このモデルはコード作成とデバッグに優れており、開発効率の向上が期待できます。WebエンジニアはAPIを通じてこれらの強化された機能を活用し、コード生成・検証タスクの自動化をより高精度で実装できるようになります。</p>
       </li></ul><h2>既存ツールへのAI機能追加</h2><ul class="news-list">
       <li class="news-item">
         <div class="item-header">
-          <a href="https://openai.com/index/making-chatgpt-better-for-clinicians" target="_blank" rel="noopener">Making ChatGPT better for clinicians</a>
+          <a href="https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine" target="_blank" rel="noopener">Canva apologizes after its AI tool replaces &#x27;Palestine&#x27; in designs</a>
           <span class="badge" style="background:#fdf3e8;color:#b45309">既存ツールへのAI機能追加</span>
         </div>
-        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月23日</span>
-        <p class="summary">OpenAIが米国の医療従事者向けに「ChatGPT for Clinicians」を無料提供開始し、臨床診療・カルテ作成・研究支援に活用できるようになりました。Webエンジニアにとっては医療系SaaS開発時にOpenAIのAPIやモデルを医療ワークフロー統合のユースケースとして参考にでき、HIPAA対応などの規制要件への対応強化が業界トレンドになる可能性があります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://openai.com/academy/workspace-agents" target="_blank" rel="noopener">Workspace agents</a>
-          <span class="badge" style="background:#fdf3e8;color:#b45309">既存ツールへのAI機能追加</span>
-        </div>
-        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月22日</span>
-        <p class="summary">ChatGPTのワークスペースエージェント機能により、複数のツール連携による業務フロー自動化が可能になり、API統合を通じてチーム運用の効率化が実現できます。Webエンジニアは既存システムへのChatGPT統合時に、このエージェント機能を活用することで、カスタムワークフロー自動化やツール間のデータ連携処理を簡素化できるようになります。</p>
+        <span class="meta">Hacker News (AI) / The Verge AI &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">Canvaが「Magic Layers」というAI機能で、デザイン内の「Palestine」というテキストを自動的に別の単語に置き換えてしまう問題が発生し、謝罪を発表しました。このAI統合ツールの予期しない動作は、既存デザインプラットフォームへのAI機能追加時に、テキスト処理ロジックやフィルタリングの設計が実務に大きな影響を与える可能性を示唆しています。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -195,11 +175,11 @@
       </li>
       <li class="news-item">
         <div class="item-header">
-          <a href="https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors" target="_blank" rel="noopener">Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax</a>
+          <a href="https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features" target="_blank" rel="noopener">Canonical lays out a plan for AI in Ubuntu Linux</a>
           <span class="badge" style="background:#fdf3e8;color:#b45309">既存ツールへのAI機能追加</span>
         </div>
-        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月24日</span>
-        <p class="summary">AnthropicはClaudeに個人向けアプリ（Spotify、Uber Eats、TurboTaxなど）との直接連携機能を追加し、ユーザーが既存のツールAPI経由でClaudeと統合できるようになりました。これにより、エンジニアは自社アプリをClaudeのコネクタとして登録することで、ユーザーがAIアシスタント経由でサービスを操作できるエコシステムを構築できます。</p>
+        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月28日</span>
+        <p class="summary">Canonical（Ubuntu開発元）がUbuntu Linuxへの段階的なAI機能統合を発表し、次年度にかけてLinuxディストリビューションにAI機能を追加予定です。これにより、Webエンジニアが利用するLinux環境でのAI開発・運用ツール統合が進むことが期待されます。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -227,6 +207,54 @@
       </li></ul><h2>業界・規制ニュース</h2><ul class="news-list">
       <li class="news-item">
         <div class="item-header">
+          <a href="https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/" target="_blank" rel="noopener">OpenAI ends Microsoft legal peril over its $50B Amazon deal</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月28日</span>
+        <p class="summary">OpenAIがMicrosoftとの契約を見直し、AWSでの製品販売が可能になりました。Webエンジニアにとって、OpenAIのAPI利用時にAWSとMicrosoftの両クラウドを自由に選択できるようになることで、コスト最適化やベンダーロックイン回避が実現します。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/" target="_blank" rel="noopener">China blocks Meta’s $2B Manus deal after months-long probe</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">中国がMetaによる20億ドルのManus買収を調査後に取り消すよう命じたもので、AI エージェント開発を推進するZuckerbergの戦略に影響を与えます。Webサービス企業が中国市場でのAI関連技術投資を進める際は、規制当局の承認プロセスを事前に確認する必要があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/" target="_blank" rel="noopener">The next phase of the Microsoft-OpenAI partnership</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">Microsoft Blog &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">MicrosoftとOpenAIの提携が見直され、より柔軟で予測可能な長期的な協力体制へと進化し、AIの利益をより広く顧客に届けることが目指されています。これにより開発者向けのAPIやサービス提供の安定性が向上し、Azure OpenAI ServiceなどのMicrosoft統合サービスの活用がより計画しやすくなる可能性があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/" target="_blank" rel="noopener">Mistral built a $14B AI empire by not being American</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">フランスのMistralが140億ドルの企業価値に達し、米国AI企業に対抗する独立系プレイヤーとして台頭しています。オープンソースモデルの提供やAPI戦略により、開発者が米国企業以外の選択肢を持つことが可能になり、Web開発・LLM統合の多様化が進む可能性があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://app.oravys.com/blog/mercor-breach-2026" target="_blank" rel="noopener">4TB of voice samples just stolen from 40k AI contractors at Mercor</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">Mercorのプラットフォームから4万人のAIコントラクターの音声サンプル4TBが流出し、AI音声モデル開発における個人データ保護とセキュリティの脆弱性が露呈しました。音声データを扱うAI開発企業やAPIプロバイダーは、ユーザーデータの暗号化やアクセス制御の強化などセキュリティ対策の見直しが急務となります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://openai.com/index/next-phase-of-microsoft-partnership" target="_blank" rel="noopener">The next phase of the Microsoft OpenAI partnership</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">OpenAI News &nbsp;·&nbsp; 2026年4月27日</span>
+        <p class="summary">MicrosoftとOpenAIが提携契約を改定し、パートナーシップを簡潔化・長期化させることで、AI技術のスケーラブルな開発を加速させます。Webエンジニアにとっては、Azure OpenAI ServiceやAPI提供の安定性向上が期待でき、大規模AI機能の統合実装がより計画的に進められるようになります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
           <a href="https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/" target="_blank" rel="noopener">Maine’s governor vetoes data center moratorium</a>
           <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
         </div>
@@ -240,30 +268,6 @@
         </div>
         <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月26日</span>
         <p class="summary">カナダのAI企業Cohereがドイツの企業向けAI企業Aleph Alphaを買収し、欧州企業向けの主権的AI選択肢を提供する戦略を進めており、Webエンジニアは米国企業によらないLLMやAPIオプションの増加に対応する必要が出てきます。この統合により、EUの規制要件に準拠したAIサービスやAPIの提供が強化される見込みです。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/" target="_blank" rel="noopener">Google to invest up to $40B in Anthropic in cash and compute</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">TechCrunch AI &nbsp;·&nbsp; 2026年4月25日</span>
-        <p class="summary">GoogleがAnthropicに最大40億ドルを投資し、AI企業間の大規模コンピュート確保競争が激化しています。これにより、LLMプロバイダー側のAPI提供体制やサービス安定性に影響が出る可能性があり、開発者は複数のAIサービス基盤への依存分散を検討する必要が出てくるでしょう。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/" target="_blank" rel="noopener">Tesla discloses $2B AI hardware company acquisition in filing</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月25日</span>
-        <p class="summary">Teslaが20億ドルのAIハードウェア企業を買収したことを10-Qファイリングで開示しました。この買収によりTeslaの推論・学習インフラが強化され、自動運転やAI機能の開発速度が加速する可能性があります。Web系企業においても、大規模AI推論に必要なハードウェアリソースの確保競争が激化することが予想されます。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/" target="_blank" rel="noopener">Our newsroom AI policy</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">Hacker News (AI) &nbsp;·&nbsp; 2026年4月23日</span>
-        <p class="summary">Ars Technicaが発表したニュースルームのAI利用ポリシーでは、記事作成時のAIツール使用を制限し、事実検証や法的責任が必要な業務ではAI生成コンテンツの使用を禁止しています。Webメディアの編集プロセスにおいて、AIツールの透明性と人間による検証が重視される方向へシフトしており、コンテンツ配信企業のAPI連携やコンテンツ管理システムの設計時にはこうした規制要件への対応が必須となることが予想されます。</p>
       </li>
       <li class="news-item">
         <div class="item-header">
@@ -291,19 +295,35 @@
       </li>
       <li class="news-item">
         <div class="item-header">
+          <a href="https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter" target="_blank" rel="noopener">Google employees ask Sundar Pichai to say no to classified military AI use</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月28日</span>
+        <p class="summary">Google従業員600名以上がCEOに対して、国防総省による機密軍事目的でのAIモデル利用をブロックするよう要求する公開書簡に署名しました。DeepMindを含む経営幹部らも参加しており、今後Google AIの軍事利用ポリシーが厳格化される可能性があるため、防衛関連プロジェクトでのGoogle API活用を検討している企業は方針確認が必要になる見込みです。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract" target="_blank" rel="noopener">Microsoft and OpenAI’s famed AGI agreement is dead</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月28日</span>
+        <p class="summary">MicrosoftとOpenAIが長年の協力関係で重視していたAGI（汎用人工知能）達成時の条項が廃止され、パートナーシップ内容が大きく変更されました。Microsoftはクラウドパートナーの地位を保持しますが、今後のOpenAI製品やAPIの優先提供などの契約条件が見直されている状況であり、両社の関係が実質的に再構成される重要な転機となっています。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
+          <a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit" target="_blank" rel="noopener">Elon Musk and Sam Altman’s court battle over the future of OpenAI</a>
+          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
+        </div>
+        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月28日</span>
+        <p class="summary">Elon MuskとSam Altmanの間でOpenAIの経営方針をめぐる裁判が2024年4月27日に開始され、MuskはOpenAIが非営利使命を放棄したとして訴えています。この裁判の結果によってはOpenAIのAPI仕様やサービス利用規約に変更が生じる可能性があり、Webエンジニアは同社のAPI依存度の見直しを検討する必要があります。</p>
+      </li>
+      <li class="news-item">
+        <div class="item-header">
           <a href="https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip" target="_blank" rel="noopener">Musk vs. Altman is here, and it&amp;#8217;s going to get messy</a>
           <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
         </div>
         <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月24日</span>
         <p class="summary">OpenAIの共同創設者であるMuskがAltmanを相手に訴訟を起こし、2025年4月27日にカリフォルニア州オークランドで公判が開始予定です。本訴訟がOpenAIの経営方針や技術開発方針に影響を与える可能性があり、API利用者は今後のOpenAIのサービス提供体制や規約変更に注視する必要があります。</p>
-      </li>
-      <li class="news-item">
-        <div class="item-header">
-          <a href="https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation" target="_blank" rel="noopener">Anthropic&amp;#8217;s Mythos breach was humiliating</a>
-          <span class="badge" style="background:#f3eeff;color:#6d28d9">業界・規制ニュース</span>
-        </div>
-        <span class="meta">The Verge AI &nbsp;·&nbsp; 2026年4月24日</span>
-        <p class="summary">Anthropicが慎重にコントロールしていたClaude Mythosモデルが、セキュリティ上の理由から限定公開していたにもかかわらず、権限のないユーザーグループにアクセスされてしまう事態が発生しました。このような漏洩は、APIの安全性管理やアクセス制御の重要性を改めて浮き彫りにし、生成AI企業の信頼性に関わる問題として今後のリリース戦略に影響を与える可能性があります。</p>
       </li></ul>
 </body>
 </html>
